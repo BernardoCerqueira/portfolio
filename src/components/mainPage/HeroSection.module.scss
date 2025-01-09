@@ -1,5 +1,12 @@
 @use "../../styles/colors.scss";
 
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
 .background{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -12,7 +19,7 @@
         flex-direction: column;
         padding-left: 20%;
         justify-content: center;
-        
+
         h1{
             color: colors.$green;
             font-size: 4vw;
@@ -21,8 +28,8 @@
 
         p{
             color: white;
-            font-size: 1.3vw;
-            margin: 20px 0 50px 0;
+            font-size: 1.2vw;
+            margin: 35px 0 50px 0;
         }
 
         button{
@@ -30,8 +37,9 @@
             color: colors.$green;
             border: 2px solid colors.$green;
             width: fit-content;
-            padding: 2%;
+            padding: 3%;
             font-size: 1.2vw;
+            cursor: pointer;
             transition: all .5s;
 
             &:hover{
@@ -56,6 +64,24 @@
     }
 }
 
+.offcanvasButton{
+    background-color: colors.$green;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 32px;
+    color: red;
+
+    &:hover{
+        background-color: transparent;
+    }
+
+    .offcanvasIcon{
+        color: colors.$blue;
+    }
+}
+
 @media screen and (max-width: 1670px){
     .background{
         height: 50vw;
@@ -68,10 +94,16 @@
 }
 
 @media screen and (max-width: 1170px){
+    .logo{
+        width: 11vw;
+    }
+
     .background{
-        height: 580px;
+        height: 550px;
 
         .blueDiv{
+            padding-left: 10%;
+
             h1{
                 font-size: 50px;
                 line-height: 50px;
@@ -91,6 +123,57 @@
         .heroImg{
             top: 130px;
             width: 280px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo{
+        width: 70px;
+    }
+
+    .background{
+        height: 100vh;
+        grid-template-rows: 3fr 2fr;
+        grid-template-columns: auto;
+
+        .blueDiv{
+            place-items: center;
+            padding-left: 0;
+            width: 100%;
+    
+            h1{
+                text-align: center;
+            }
+
+            p{
+                margin: 40px 50px;
+                text-align: center;
+            }
+        }
+    }
+
+    .greenDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .heroImg{
+            width: 240px;
+            position: relative;
+            top: 0;
+            left: 0;
+            border: 2px solid colors.$blue;
+            border-radius: 0px;
+            box-shadow: 8px 8px 1px colors.$blue;
+        }
+    }
+
+    .offcanvasButton{
+        background-color: colors.$blue;
+
+        .offcanvasIcon{
+            color: colors.$green;
         }
     }
 }
