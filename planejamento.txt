@@ -1,0 +1,38 @@
+HISTÓRIAS DE USO:
+
+Quero fazer um site para recrutadores verem meus projetos pessoais.
+
+--------
+
+REQUISITOS:
+
+Apresentar os principais projetos
+Ser atrativo
+Ter meios de contato
+
+--------
+
+TELAS:
+
+1. Main
+  1.1. Hero Section: nome grande, "web developer", botão "explorar", foto
+  1.2. Presentation Section: seção me apresentando
+  1.3. Projects Section: seção com botão para página de projetos
+  1.4. Contact Section: seção para enviar e-mail
+  1.5. Footer Section: e-mail, github e linkedin
+  
+  +offcanvas com as opções "Home", "Projetos" e "Currículo"
+
+2. Projects
+  2.1. Projects Section: card clicável com foto e pequena descrição de cada projeto
+  2.2. Footer Section: o mesmo da main
+
+3. Currículo
+  3.1 Curriculum Section: pequena descrição e botão para baixar o currículo
+  3.2 Footer Section: o mesmo da main
+
+--------
+
+CORES PRINCIPAIS:
+
+Verde clarinho e roxo (quase azul)
