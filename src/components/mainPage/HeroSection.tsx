@@ -19,7 +19,10 @@ export default function HeroSection(){
     return(
         <>
             <Link href={"/"}>
-                <img src="/logo.png" alt="Logo" className={styles.logo}/>
+                <img
+                    src="/logo.png"
+                    alt="Logo"
+                    className={styles.logo}/>
             </Link>
             <Button
                     className={styles.offcanvasButton}
@@ -29,8 +32,14 @@ export default function HeroSection(){
             </Button>
             <Box className={styles.background}>    
                 <Box className={styles.blueDiv}>
-                    <h1>Bernardo<br/>Cerqueira</h1>
-                    <p>Eu sou um Desenvolvedor Web apaixonado por criar sites.</p>
+                    <h1>
+                        Bernardo<br/>
+                        Cerqueira
+                        <span className={styles.titleSpan}>.</span>
+                    </h1>
+                    <p>
+                        I like to craft solid and scalable frontend products with great user experiences.
+                    </p>
                     <Button onClick={handleClick}>Conhecer Mais</Button>
                 </Box>
                 <Box className={styles.greenDiv}> 

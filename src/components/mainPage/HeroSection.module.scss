@@ -23,13 +23,18 @@
         h1{
             color: colors.$green;
             font-size: 4vw;
+            font-weight: bold;
             line-height: 4vw;
+
+            .titleSpan{
+                color: white;
+            }
         }
 
         p{
             color: white;
             font-size: 1.2vw;
-            margin: 35px 0 50px 0;
+            margin: 35px 25vw 50px 0;
         }
 
         button{
@@ -37,7 +42,7 @@
             color: colors.$green;
             border: 2px solid colors.$green;
             width: fit-content;
-            padding: 3%;
+            padding: 2% 3%;
             font-size: 1.2vw;
             cursor: pointer;
             transition: all .5s;
