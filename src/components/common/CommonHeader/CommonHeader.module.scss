@@ -1,0 +1,56 @@
+@use "../../../styles/colors.scss";
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.offcanvasButton{
+    background-color: colors.$green;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 32px;
+    color: red;
+
+    &:hover{
+        background-color: transparent;
+    }
+
+    .offcanvasIcon{
+        color: colors.$blue;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .logo{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo{
+        width: 70px;
+    }
+
+    .offcanvasButton{
+        background-color: colors.$blue;
+
+        .offcanvasIcon{
+            color: colors.$green;
+        }
+    }
+}
+
+@media screen and (min-width: 2800px){
+    .logo{
+        width: 150px;
+    }
+
+    .offcanvasButton{
+        font-size: 48px;
+    }
+}
