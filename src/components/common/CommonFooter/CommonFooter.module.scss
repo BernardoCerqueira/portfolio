@@ -27,6 +27,30 @@
     padding-bottom: 7px;
 }
 
+.emailIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: rotate(15deg);
+    }
+}
+
+.githubIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.linkedinIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: rotate(-15deg);
+    }
+}
+
 @media screen and (max-width: 435px) {
     .footer{
         flex-direction: column;

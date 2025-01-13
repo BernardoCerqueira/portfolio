@@ -14,13 +14,13 @@ export default function CommonFooter(){
                     &copy; Bernardo Cerqueira {year}
                 </p>
                 <div className={styles.socialLinks}>
-                    <a href="mailto:becerqueira.dev@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:becerqueira.dev@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.emailIcon}>
                         <MdEmail />
                     </a>
-                    <a href="https://github.com/BernardoCerqueira" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/BernardoCerqueira" target="_blank" rel="noopener noreferrer" className={styles.githubIcon}>
                         <FaGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/bernardo-cerqueira-dev/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/bernardo-cerqueira-dev/" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
                         <FaLinkedin />
                     </a>
                 </div>
