@@ -13,7 +13,6 @@ export default function HeroSection(){
 
     return(
         <>
-            <CommonHeader/>
             <Box className={styles.background}>    
                 <Box className={styles.blueDiv}>
                     <h1>
@@ -22,7 +21,7 @@ export default function HeroSection(){
                         <span className={styles.titleSpan}>.</span>
                     </h1>
                     <p>
-                        I like to craft solid and scalable frontend products with great user experiences.
+                        Desenvolvedor web apaixonado por criar sites atraentes e funcionais.
                     </p>
                     <Button onClick={handleClick}>Conhecer Mais</Button>
                 </Box>
