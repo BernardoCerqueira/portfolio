@@ -1,0 +1,40 @@
+@use "../../../styles/colors.scss";
+
+.footer{
+    background-color: colors.$purple;
+    color: colors.$green;
+    padding: 37px 40px 30px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        color: colors.$green;
+    }
+}
+
+.copyright{
+    margin: auto 0;
+    text-align: center;
+}
+
+.socialLinks{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width: 435px) {
+    .footer{
+        flex-direction: column;
+        gap: 10px;
+        padding: 35px;
+    }
+
+    .socialLinks{
+        font-size: 30px
+    }
+}
