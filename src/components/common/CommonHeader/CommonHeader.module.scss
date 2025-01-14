@@ -59,10 +59,13 @@
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: bold;
-    transition: all 1s;
-
-    &:hover {
-        margin-left: 10px;
+    
+    a{
+        transition: all 1s;
+        
+        &:hover {
+            margin-left: 10px;
+        }
     }
 }
 
