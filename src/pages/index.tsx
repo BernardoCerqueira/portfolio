@@ -1,16 +1,19 @@
-import styles from "@/styles/common/pages.module.scss"
 import CommonHeader from "@/components/common/CommonHeader";
 import CommonFooter from "@/components/common/CommonFooter"
 import HeroSection from "@/components/mainPage/HeroSection";
+import PresentationSection from "@/components/mainPage/PresentationSection";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div>
       <CommonHeader/>
-      <main className={styles.main}>
+      <main>
         <HeroSection/>
+        <PresentationSection/>
       </main>
-      <CommonFooter/>
+      <div id="footer">
+        <CommonFooter/>
+      </div>
     </div>
   );
 }

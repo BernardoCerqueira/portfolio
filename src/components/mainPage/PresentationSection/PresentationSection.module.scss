@@ -1,0 +1,67 @@
+@use "../../../styles/colors.scss";
+
+.presentationSection{
+    display: flex;
+    flex-direction: column;
+    padding: 250px 0 150px 0;
+    gap: 100px;
+}
+
+.aboutMe{
+    display: flex;
+    gap: 80px;
+
+    .aboutMeTextDiv{
+        text-align: justify;
+    }
+
+    .aboutMeTitle{
+        margin-bottom: 25px;
+        color: colors.$blue;
+    }
+
+    .aboutMeText{
+        
+    }
+
+    .aboutMeImageDiv{
+        width: fit-content;
+    }
+
+    .aboutMeImage{
+        width: 300px;
+    }
+}
+
+.techStack{
+    display: flex;
+    gap: 80px;
+
+    .techStackTextDiv{
+        order: 2;
+        text-align: justify;
+    }
+    
+    .techStackTitle{
+        margin-bottom: 25px;
+        color: colors.$blue;
+    }
+    
+    .techStackText{
+        color: black;
+    }
+    
+    .techStackImageDiv{
+        width: fit-content;
+        margin-top: -10px;
+    }
+    
+    .techStackImage{
+        height: 320px;
+    }
+}
+
+.highlight{
+    color: colors.$blue;
+    font-weight: bold;
+}
