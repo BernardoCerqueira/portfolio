@@ -14,7 +14,7 @@ export default function CommonHeader() {
 
     return (
         <>
-            <nav className={styles.header} id="header">
+            <nav className={styles.header}>
                 <Link href={"#hero"}>
                     <img
                         src="/logo.png"

@@ -4,7 +4,7 @@
     height: fit-content;
     width: 100%;
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
@@ -121,8 +121,6 @@
     }
 
     .offcanvasButton {
-        background-color: colors.$blue;
-
         .offcanvasIcon {
             color: colors.$green;
         }
@@ -133,7 +131,7 @@
     .logo {
         width: 150px;
     }
-
+    
     .offcanvasButton {
         font-size: 48px;
     }
