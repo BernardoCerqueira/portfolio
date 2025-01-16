@@ -22,7 +22,6 @@ export default function PresentationSection() {
                     <img src="/programmer-art.svg" alt="A programmer coding..." className={styles.aboutMeImage} />
                 </Container>
             </Container>
-
             <Container className={styles.techStack}>
                 <Container className={styles.techStackTextDiv}>
                     <h1 className={styles.techStackTitle}>Habilidades e Objetivos
