@@ -14,7 +14,7 @@ export default function CommonHeader() {
 
     return (
         <nav>
-            <Link href={"/"}>
+            <Link href={"#hero"}>
                 <img
                     src="/logo.png"
                     alt="Logo"

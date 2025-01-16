@@ -1,5 +1,6 @@
 import { Container } from "reactstrap"
 import styles from "./PresentationSection.module.scss"
+import Link from "next/link"
 
 
 export default function PresentationSection() {
@@ -9,7 +10,7 @@ export default function PresentationSection() {
                 <Container className={styles.aboutMeText}>
                     <h1 className={styles.aboutMeTitle}>Sobre Mim</h1>
                     <p className={styles.aboutMeText}>
-                        Olá! Sou um desenvolvedor fullstack apaixonado por tecnologia e em busca da minha primeira oportunidade profissional na área. Recentemente, concluí o curso <span className={styles.highlight}>JavaScript Fullstack</span> da Onebitcode, no qual adquiri uma base sólida em desenvolvimento web e trabalhei em diversos projetos que demonstram minhas habilidades práticas <span className={styles.highlight}>(confira na seção de projetos)</span>.
+                        Olá! Sou um desenvolvedor fullstack apaixonado por tecnologia e em busca da minha primeira oportunidade profissional na área. Recentemente, concluí o curso <span className={styles.highlight}>JavaScript Fullstack</span> da Onebitcode, no qual adquiri uma base sólida em desenvolvimento web e trabalhei em diversos projetos que demonstram minhas habilidades práticas <Link href={"#projects"} className={styles.link}><span className={styles.highlight}>(confira na seção de projetos)</span></Link>.
                     </p>
                     <p className={styles.aboutMeText}>
                         Meu processo de trabalho é guiado pela busca por soluções inteligentes e bem planejadas. Antes de codar, gosto de analisar o problema, pensar nas melhores alternativas e só então implementar a solução. Isso reflete meu compromisso com a qualidade e a eficiência.

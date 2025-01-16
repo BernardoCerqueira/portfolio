@@ -1,5 +1,4 @@
 import styles from "./HeroSection.module.scss"
-import CommonHeader from "@/components/common/CommonHeader"
 import { Box } from "@radix-ui/themes";
 import { Button} from "reactstrap";
 import { useRouter } from "next/router";
@@ -8,7 +7,7 @@ export default function HeroSection(){
     const router = useRouter()
 
     function handleClick(){
-        router.push("/")
+        router.push("#presentation")
     }
 
     return(

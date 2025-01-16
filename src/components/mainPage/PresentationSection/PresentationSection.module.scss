@@ -12,6 +12,17 @@
     font-weight: bold;
 }
 
+.link{
+    text-decoration: none;
+
+    .highlight{
+        transition: .5s;
+        &:hover{
+            color: colors.$purple;
+        }
+    }
+}
+
 .aboutMe{
     display: flex;
     gap: 80px;
