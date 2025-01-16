@@ -1,6 +1,22 @@
+@use "../styles/colors.scss";
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(104, 104, 104);
+    border-radius: 10px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
 }

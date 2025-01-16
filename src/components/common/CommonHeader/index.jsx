@@ -13,21 +13,23 @@ export default function CommonHeader() {
     const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <nav>
-            <Link href={"#hero"}>
-                <img
-                    src="/logo.png"
-                    alt="Logo"
-                    className={styles.logo}
-                />
-            </Link>
-            <Button
-                className={styles.offcanvasButton}
-                onClick={toggle}
-            >
-                <IoMenuOutline className={styles.offcanvasIcon} />
-            </Button>
+        <>
+            <nav className={styles.header} id="header">
+                <Link href={"#hero"}>
+                    <img
+                        src="/logo.png"
+                        alt="Logo"
+                        className={styles.logo}
+                    />
+                </Link>
+                <Button
+                    className={styles.offcanvasButton}
+                    onClick={toggle}
+                >
+                    <IoMenuOutline className={styles.offcanvasIcon} />
+                </Button>
 
+            </nav>
             <div>
                 <Offcanvas
                     isOpen={isOpen}
@@ -67,6 +69,6 @@ export default function CommonHeader() {
                     </OffcanvasBody>
                 </Offcanvas>
             </div>
-        </nav>
+        </>
     )
 }
