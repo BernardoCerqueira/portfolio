@@ -34,7 +34,7 @@ export default function PresentationSection() {
                         No front-end, domino frameworks como <span className={styles.highlight}>React e Next.js</span>, construindo interfaces modernas e responsivas. No back-end, meu foco é em <span className={styles.highlight}>Node.js e Express.js</span>, com integração a bancos de dados <span className={styles.highlight}>PostgreSQL via Prisma</span>.
                     </p>
                     <p className={styles.techStackText}>
-                        Tenho interesse tanto no front-end quanto no back-end, com um desejo especial de explorar mais o mundo dos bancos de dados. Meu objetivo é crescer constantemente como desenvolvedor, aprendendo com profissionais experientes e contribuindo para projetos impactantes. Estou animado para começar minha jornada profissional e contribuir para o sucesso de uma equipe que valorize crescimento e aprendizado.
+                        Tenho interesse tanto no front-end quanto no back-end, com um desejo especial de explorar mais o mundo dos bancos de dados. Meu objetivo é crescer constantemente como desenvolvedor, aprendendo com profissionais experientes e contribuindo para projetos impactantes. Estou animado para começar minha jornada profissional e contribuir para o sucesso de uma equipe que valorize o meu crescimento e o meu aprendizado.
                     </p>
                 </Container>
                 <Container className={styles.techStackImageDiv}>
