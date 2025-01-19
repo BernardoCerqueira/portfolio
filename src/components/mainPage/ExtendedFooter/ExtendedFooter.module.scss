@@ -1,0 +1,148 @@
+@use "../../../styles/colors.scss";
+
+.footer{
+    background-color: colors.$purple;
+    height: 50vh;
+    display: flex;
+    align-items: center; 
+}
+
+.topFooter{
+    margin-bottom: 40px;
+
+    a{
+        color: colors.$green;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: rgb(138, 138, 138);
+        margin-bottom: 20px;
+    }
+
+    .flex{
+        display: flex;
+        gap: 250px;
+    }
+
+    .email{
+        transition: all 1s;
+
+        &:hover{
+            filter: opacity(0.7);
+        }
+    }
+
+    .redirect{
+        transition: all 1s;
+        
+        &:hover {
+            margin-left: 10px;
+        }
+    }
+}
+
+.bottomFooter{
+    color: colors.$green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    border-top: 1px solid colors.$green;
+
+    a{
+        color: colors.$green;
+    }
+}
+
+.copyright{
+    margin: auto 0;
+    text-align: center;
+}
+
+.socialLinks{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 7px;
+}
+
+.emailIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: rotate(15deg);
+    }
+}
+
+.githubIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.linkedinIcon {
+    transition: all 1s;
+
+    &:hover {
+        transform: rotate(-15deg);
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .topFooter{
+        a, h2{
+            font-size: 25px;
+        }
+    }
+
+    .socialLinks{
+        font-size: 34px;
+    }
+
+    .copyright{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topFooter{
+        .flex{
+            gap: 110px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .footer{
+        height: fit-content;
+    }
+
+    .topFooter{
+        .flex{
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    .bottomFooter{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .socialLinks{
+        font-size: 26px;
+    }
+}

@@ -109,6 +109,16 @@
     }
 }
 
+@media screen and (min-width: 2800px) {
+    .logo {
+        width: 150px;
+    }
+    
+    .offcanvasButton {
+        font-size: 48px;
+    }
+}
+
 @media screen and (max-width: 1170px) {
     .logo {
         width: 10vw;
@@ -124,15 +134,5 @@
         .offcanvasIcon {
             color: colors.$green;
         }
-    }
-}
-
-@media screen and (min-width: 2800px) {
-    .logo {
-        width: 150px;
-    }
-    
-    .offcanvasButton {
-        font-size: 48px;
     }
 }
