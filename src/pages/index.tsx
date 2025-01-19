@@ -2,6 +2,7 @@ import CommonHeader from "@/components/common/CommonHeader";
 import CommonFooter from "@/components/common/CommonFooter"
 import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
+import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 
 export default function Home() {
   return (
@@ -17,12 +18,10 @@ export default function Home() {
         <div id="projects">
 
         </div>
-        <div id="contact">
-
-        </div>
       </main>
       <div id="footer">
         <CommonFooter/>
+        <ExtendedFooter/>
       </div>
     </>
   );

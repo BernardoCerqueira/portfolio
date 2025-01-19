@@ -1,9 +1,8 @@
-import Link from "next/link"
 import styles from "./CommonFooter.module.scss"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
-export default function CommonFooter(){
+export default function CommonFooter() {
     const date = new Date()
     const year = date.getFullYear()
 
