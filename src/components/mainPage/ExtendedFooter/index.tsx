@@ -22,7 +22,7 @@ export default function ExtendedFooter() {
                                 </a>
                             </div>
                             <div>
-                                <a href="/">
+                                <a href="#hero">
                                     <p className={styles.redirect}>Home</p>
                                 </a>
                                 <a href="/projects">

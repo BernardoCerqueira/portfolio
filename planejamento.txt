@@ -40,5 +40,20 @@ Verde clarinho e roxo (quase azul)
 --------
 
 Não esquecer de colocar Header em todas as páginas
-Links no offcanvas
 Adicionar seta abaixo do Hero
+Tornar card de projeto clicável
+Estudar a possibilidade de o trigger do offcanvas descer com a página (position: fixed)
+Pegar as fotos, links e nomes de cada projeto e criar um database para eles
+
+--------
+
+PROJETOS:
+
+1. DevFlix
+2. Draw Simulator
+3. BLACK: e-commerce
+4. RocketX
+5. Cerqueira Sports
+6. Stock Manager
+7. Kanban
+8. Tic-tac-toe
