@@ -1,0 +1,56 @@
+@use "../../../styles/colors.scss";
+
+.card {
+    background-color: rgb(212, 212, 212);
+    border: 5px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px 10px 30px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.imgSection {
+    .img {
+        width: 200px;
+        height: 200px;
+        border: 5px solid black;
+    }
+}
+
+.textSection {
+    .title {
+        font-weight: bold;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .link {
+        text-decoration: none;
+        transition: all .4s;
+
+        &:hover{
+            filter: opacity(0.75);
+        }
+    }
+
+    .linkText{
+        color: colors.$blue;
+    }
+
+    .description {
+
+    }
+}
+
+@media screen and (max-width: 460px){
+    .card{
+        width: 90vw;
+        padding: 25px 20px 10px 20px;
+    }
+}

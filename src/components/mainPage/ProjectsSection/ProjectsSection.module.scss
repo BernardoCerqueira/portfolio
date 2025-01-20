@@ -1,0 +1,60 @@
+@use "../../../styles/colors.scss";
+
+.projectsSection{
+    height: fit-content;
+    min-height: 100vh;
+    background-color: colors.$blue;
+}
+
+.projectsContainer{
+    padding: 80px 40px 150px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.projectsTitle{
+    color: colors.$green;
+    font-size: 52px;
+}
+
+.projectsCardsSection{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 60px;
+}
+
+@media screen and (max-width: 1760px) {
+    .projectsCardsSection{
+        width: 1200px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    .projectsCardsSection{
+        width: 800px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .projectsCardsSection{
+        width: auto;
+    }
+
+    .projectsCardsSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .projectsTitle{
+        font-size: 44px;
+    }
+}
+
