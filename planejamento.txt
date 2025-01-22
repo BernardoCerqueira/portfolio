@@ -48,11 +48,11 @@ Responsividade para telas muito grandes
 
 PROJETOS:
 
-1. DevFlix
-2. Draw Simulator
-3. BLACK: e-commerce
-4. RocketX
-5. Cerqueira Sports
-6. Stock Manager
-7. Kanban
-8. Tic-tac-toe
+1. OneBitFlix (full-stack)
+2. RocketX (front-end)
+3. Draw Simulator (front-end)
+4. BLACK: e-commerce (front-end)
+5. Leads API (back-end)
+6. Stock Manager (front-end com um pé no back-end)
+7. Kanban (front-end)
+8. Tic-tac-toe (lógica)

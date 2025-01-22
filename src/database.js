@@ -10,24 +10,6 @@ export const database = [
     },
     {
         id: 2,
-        name: "Draw Simulator",
-        pageName: "draw-simulator",
-        description: "Aplicativo web para sorteios de times - com ou sem potes - e separação em grupos. Ideal para campeonatos e eventos.",
-        link: "https://draw-simulator-psi.vercel.app/",
-        textLink: "draw-simulator.app",
-        imgUrl: "/projects/drawsimulator.png"
-    },
-    {
-        id: 3,
-        name: "BLACK: e-commerce",
-        pageName: "black",
-        description: "E-commerce com um carrinho de compras administrável pelo usuário. Os dados da aplicação persistem no Local Storage.",
-        link: "https://black-nextjs-xi-six.vercel.app/",
-        textLink: "black-nextjs.app",
-        imgUrl: "/projects/black.jpg"
-    },
-    {
-        id: 4,
         name: "RocketX",
         pageName: "rocketX",
         description: "Aplicação front-end com um design totalmente responsivo, elementos interativos e uma navegação fluida, simulando o site da SpaceX.",
@@ -36,13 +18,31 @@ export const database = [
         imgUrl: "/projects/rocketx.jpg"
     },
     {
+        id: 3,
+        name: "Draw Simulator",
+        pageName: "draw-simulator",
+        description: "Aplicativo web para sorteios de times - com ou sem potes - e separação em grupos. Ideal para campeonatos e eventos.",
+        link: "https://draw-simulator-psi.vercel.app/",
+        textLink: "draw-simulator.app",
+        imgUrl: "/projects/drawsimulator.png"
+    },
+    {
+        id: 4,
+        name: "BLACK: e-commerce",
+        pageName: "black",
+        description: "E-commerce com um carrinho de compras administrável pelo usuário. Os dados da aplicação persistem no Local Storage.",
+        link: "https://black-nextjs-xi-six.vercel.app/",
+        textLink: "black-nextjs.app",
+        imgUrl: "/projects/black.jpg"
+    },
+    {
         id: 5,
-        name: "Cerqueira Sports",
-        pageName: "cerqueira-sports",
-        description: "Página web que simula uma loja de itens esportivos. O layout é totalmente responsivo e conta com a opção de escolher o tema entre claro e escuro.",
-        link: "https://bernardocerqueira.github.io/CerqueiraSports/",
-        textLink: "cerqueira-sports.github.io",
-        imgUrl: "/projects/cerqueiraSports.jpg"
+        name: "Leads API",
+        pageName: "leads-api",
+        description: "Gerenciamento completo de Leads, Grupos e Campanhas. O usuário pode criar, ver, atualizar e excluir registros. Conta com paginação e filtros.",
+        link: "",
+        textLink: "",
+        imgUrl: "/projects/leads-api.jpg"
     },
     {
         id: 6,
