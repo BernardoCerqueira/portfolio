@@ -24,7 +24,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
-    gap: 60px;
+    place-content: center;
+    gap: 100px;
 }
 
 @media screen and (max-width: 1760px) {
@@ -34,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 1760px) {
+@media screen and (max-width: 1260px) {
     .projectsCardsSection{
         width: 800px;
         grid-template-columns: repeat(2, 1fr);
@@ -55,6 +56,10 @@
 @media screen and (max-width: 427px) {
     .projectsTitle{
         font-size: 44px;
+    }
+    
+    .projectsCardsSection{
+        gap: 50px;
     }
 }
 

@@ -44,6 +44,7 @@ Adicionar seta abaixo do Hero
 Tornar card de projeto clicável
 Estudar a possibilidade de o trigger do offcanvas descer com a página (position: fixed)
 Pegar as fotos, links e nomes de cada projeto e criar um database para eles
+Responsividade para telas muito grandes
 
 --------
 

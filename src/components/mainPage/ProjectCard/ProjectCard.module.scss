@@ -1,28 +1,38 @@
 @use "../../../styles/colors.scss";
 
 .card {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(224, 224, 224);
     border: 5px solid black;
     width: 350px;
+    height: 470px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     padding: 25px 30px 10px 30px;
     border-radius: 10px;
     gap: 30px;
 }
 
 .imgSection {
+    margin: auto;
+
     .img {
         width: 200px;
         height: 200px;
         border: 5px solid black;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        object-fit: cover;
+    }
+    .svg{
+        object-fit: contain;
+        padding: 10px;
+        background-color: rgba(34, 34, 34, 0.986);
     }
 }
 
 .textSection {
     .title {
-        font-weight: bold;
+        font-weight: bold;   
 
         a{
             text-decoration: none;
@@ -44,7 +54,7 @@
     }
 
     .description {
-
+        color: rgb(0, 0, 0);
     }
 }
 
