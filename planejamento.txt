@@ -17,14 +17,14 @@ TELAS:
 1. Main
   1.1. Hero Section: nome grande, "web developer", botão "explorar", foto [OK]
   1.2. Presentation Section: seção me apresentando [OK]
-  1.3. Projects Section: seção com botão para página de projetos
+  1.3. Projects Section: seção com botão para página de projetos [OK]
   1.4. Contact Section [OK]
   1.5. Footer Section: e-mail, github e linkedin [OK]
   
   +offcanvas com as opções "Home", "Projetos" e "Currículo" [OK]
 
 2. Projects
-  2.1. Projects Section: card clicável com foto e pequena descrição de cada projeto
+  2.1. Projects Section: explicação sobre o projeto
   2.2. Footer Section: o mesmo da main
 
 3. Currículo
@@ -41,9 +41,7 @@ Verde clarinho e roxo (quase azul)
 
 Não esquecer de colocar Header em todas as páginas
 Adicionar seta abaixo do Hero
-Tornar card de projeto clicável
 Estudar a possibilidade de o trigger do offcanvas descer com a página (position: fixed)
-Pegar as fotos, links e nomes de cada projeto e criar um database para eles
 Responsividade para telas muito grandes
 
 --------

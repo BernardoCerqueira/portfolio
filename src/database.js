@@ -55,20 +55,20 @@ export const database = [
     },
     {
         id: 7,
-        name: "RocketX",
-        pageName: "rocketX",
-        description: "Aplicação front-end com um design totalmente responsivo, elementos interativos e uma navegação fluida, simulando o site da SpaceX.",
-        link: "https://bernardocerqueira.github.io/rocketX/",
-        textLink: "rocketX.github.io",
-        imgUrl: "/projects/rocketx.jpg"
+        name: "Kanban",
+        pageName: "kanban",
+        description: "Essa aplicação é um exemplo de Kanban - metodologia de gestão visual que ajuda a controlar o fluxo de trabalho de uma equipe.",
+        link: "",
+        textLink: "",
+        imgUrl: "/projects/kanban.jpg"
     },
     {
         id: 8,
-        name: "RocketX",
-        pageName: "rocketX",
-        description: "Aplicação front-end com um design totalmente responsivo, elementos interativos e uma navegação fluida, simulando o site da SpaceX.",
-        link: "https://bernardocerqueira.github.io/rocketX/",
-        textLink: "rocketX.github.io",
-        imgUrl: "/projects/rocketx.jpg"
+        name: "Tic-tac-toe",
+        pageName: "tic-tac-toe",
+        description: "Projeto desenvolvido durante o curso de JavaScript da OneBitCode, tendo como principal objetivo treinar a lógica de programação.",
+        link: "https://bernardocerqueira.github.io/tic-tac-toe/",
+        textLink: "tic-tac-toe.github.io",
+        imgUrl: "/projects/ticTacToe.png"
     }
 ]
