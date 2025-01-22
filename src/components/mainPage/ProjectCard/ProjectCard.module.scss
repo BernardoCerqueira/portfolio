@@ -11,6 +11,12 @@
     padding: 25px 25px 10px 25px;
     border-radius: 10px;
     gap: 30px;
+    
+    transition: all .3s ease-in-out;
+    &:hover{
+        transform: scale(1.03);
+        box-shadow: 10px 10px 10px rgb(31, 37, 82);
+    }
 }
 
 .imgSection {
@@ -45,12 +51,8 @@
         transition: all .4s;
 
         &:hover{
-            filter: opacity(0.75);
+            color: colors.$blue;
         }
-    }
-
-    .linkText{
-        color: colors.$blue;
     }
 
     .description {
