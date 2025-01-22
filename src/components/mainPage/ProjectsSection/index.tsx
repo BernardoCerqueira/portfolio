@@ -18,6 +18,7 @@ export default function ProjectsSection(){
                                 link={project.link}
                                 textLink={project.textLink}
                                 imgUrl={project.imgUrl}
+                                pageName={project.pageName}
                             />
                         ))}
                     </div>

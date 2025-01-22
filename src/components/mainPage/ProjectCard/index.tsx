@@ -2,14 +2,14 @@ import styles from "./ProjectCard.module.scss"
 
 type props = {
     name: string
+    pageName: string
     description: string
     link: string
     textLink: string
     imgUrl: string
 }
 
-export default function ProjectCard({name, description, link, textLink, imgUrl}: props) {
-    const pageName = name.toLowerCase().replace(/(\s)/g, "")
+export default function ProjectCard({name, pageName, description, link, textLink, imgUrl}: props) {
     const isSvg = imgUrl.slice(-4) === ".svg"
 
     return (
