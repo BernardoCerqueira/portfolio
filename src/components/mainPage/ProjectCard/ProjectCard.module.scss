@@ -1,5 +1,14 @@
 @use "../../../styles/colors.scss";
 
+@keyframes highlight-effect {
+    0%, 100%{
+        box-shadow: 10px 10px 10px black;
+    }
+    50%{
+        box-shadow: 10px 10px 10px colors.$green;
+    }
+}
+
 .card {
     background-color: rgb(224, 224, 224);
     border: 5px solid black;
@@ -15,8 +24,15 @@
     transition: all .3s ease-in-out;
     &:hover{
         transform: scale(1.03);
-        box-shadow: 10px 10px 10px rgb(31, 37, 82);
+        box-shadow: 10px 10px 10px black;
+        
     }
+
+    &:first-of-type:hover{
+        animation: highlight-effect 4s infinite;
+    }
+
+
 }
 
 .imgSection {
