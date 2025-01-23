@@ -39,7 +39,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
                         <a
                             href={link === "" ? `/projects/${pageName}` : link}
                             rel="noopener noreferrer"
-                            target="_blank"
+                            target={link === "" ? "_self" : "_blank"}
                             className={styles.link}
                         >
                                 {textLink === "" ? "Conheça mais" : textLink}
