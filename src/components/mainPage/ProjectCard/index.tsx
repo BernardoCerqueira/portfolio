@@ -17,7 +17,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
         <>
             <div className={styles.card}>
                 <div className={styles.imgSection}>
-                    <a href={`/projects/${pageName}`} rel="noopener noreferrer" target="_blank">
+                    <a href={`/projects/${pageName}`} target="_self">
                         <Image
                             src={imgUrl}
                             alt={name}
@@ -29,8 +29,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
                     <h3 className={styles.title}>
                         <a
                             href={`/projects/${pageName}`}
-                            rel="noopener noreferrer"
-                            target="_blank"
+                            target="_self"
                         >
                             {name}
                         </a>
