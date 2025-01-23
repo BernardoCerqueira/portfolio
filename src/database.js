@@ -52,23 +52,5 @@ export const database = [
         link: "",
         textLink: "",
         imgUrl: "/projects/stockManager.jpg"
-    },
-    {
-        id: 7,
-        name: "Kanban",
-        pageName: "kanban",
-        description: "Essa aplicação é um exemplo de Kanban - metodologia de gestão visual que ajuda a controlar o fluxo de trabalho de uma equipe.",
-        link: "",
-        textLink: "",
-        imgUrl: "/projects/kanban.jpg"
-    },
-    {
-        id: 8,
-        name: "Tic-tac-toe",
-        pageName: "tic-tac-toe",
-        description: "Projeto desenvolvido durante o curso de JavaScript da OneBitCode, tendo como principal objetivo treinar a lógica de programação.",
-        link: "https://bernardocerqueira.github.io/tic-tac-toe/",
-        textLink: "tic-tac-toe.github.io",
-        imgUrl: "/projects/ticTacToe.png"
     }
 ]

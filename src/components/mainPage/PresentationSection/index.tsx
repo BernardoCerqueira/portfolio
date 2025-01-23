@@ -38,7 +38,7 @@ export default function PresentationSection() {
                     </p>
                 </Container>
                 <Container className={styles.techStackImageDiv}>
-                    <Image src="/laptop.jpg" alt="A laptop" className={styles.techStackImage} />
+                    <Image src="/laptop.jpg" alt="A laptop" className={styles.techStackImage}/>
                 </Container>
             </Container>        
         </Container>

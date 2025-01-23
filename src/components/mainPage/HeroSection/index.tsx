@@ -29,7 +29,7 @@ export default function HeroSection(){
                         <Image 
                             className={styles.heroImg}
                             src="/profile-pic.jpg"
-                            alt="Profile Picture" 
+                            alt="Profile Picture"
                         />
                 </Box>
             </Box>

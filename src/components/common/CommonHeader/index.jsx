@@ -46,10 +46,10 @@ export default function CommonHeader() {
                     <OffcanvasBody className={styles.offcanvasBody}>
                         <ul className={styles.list}>
                             <li className={styles.listItem}>
-                                <Link href={"/"}>Home</Link>
+                                <Link href={"#hero"}>Home</Link>
                             </li>
                             <li className={styles.listItem}>
-                                <Link href={"/projects"}>Projetos</Link>
+                                <Link href={"#projects"}>Projetos</Link>
                             </li>
                             <li className={styles.listItem}>
                                 <Link href={"/curriculum"}>Currículo</Link>
