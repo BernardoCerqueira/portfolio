@@ -41,6 +41,8 @@ export default function CommonHeader() {
                 <Offcanvas
                     isOpen={isOpen}
                     toggle={toggle}
+                    scrollable
+                    returnFocusAfterClose={false}
                     direction="end"
                     className={styles.offcanvas}
                 >

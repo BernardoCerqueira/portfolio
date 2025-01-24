@@ -42,7 +42,6 @@ Verde clarinho e roxo (quase azul)
 Não esquecer de colocar Header em todas as páginas
 Estudar a possibilidade de o trigger do offcanvas descer com a página (position: fixed) - até para corrigir o bug de quando clicamos em "Projects" no OffCanvas e depois fechamos o OffCanvas, ele volta para o Hero
 Responsividade para telas muito grandes
-Corrigir erro do menu burguer quando clicamos em Projetos
 
 Mudar a foto de capa
 
