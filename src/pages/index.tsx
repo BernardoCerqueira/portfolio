@@ -4,10 +4,15 @@ import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 import ProjectsSection from "@/components/mainPage/ProjectsSection";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Bernardo Cerqueira | Portfólio</title>
+        <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
+      </Head>
       <CommonHeader />
       <main>
         <div id="hero">
