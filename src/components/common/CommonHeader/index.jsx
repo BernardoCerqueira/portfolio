@@ -6,9 +6,11 @@ import { useState } from "react";
 import { Offcanvas, OffcanvasBody, OffcanvasHeader } from "reactstrap";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 export default function CommonHeader() {
     const [isOpen, setIsOpen] = useState(false)
+    const router = useRouter()
 
     const toggle = () => setIsOpen(!isOpen)
 
@@ -22,6 +24,11 @@ export default function CommonHeader() {
                         className={styles.logo}
                     />
                 </Link>
+                <div className={styles.buttons}>
+                    <Button onClick={() => router.push("#hero")}>Home</Button>
+                    <Button onClick={() => router.push("#projects")}>Projetos</Button>
+                    <Button onClick={() => router.push("/curriculum")}>Currículo</Button>
+                </div>
                 <Button
                     className={styles.offcanvasButton}
                     onClick={toggle}

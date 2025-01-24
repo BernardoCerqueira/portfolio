@@ -27,7 +27,7 @@ export default function HeroSection(){
                 <Box className={styles.greenDiv}> 
                         <img 
                             className={styles.heroImg}
-                            src="/profile-pic.jpg"
+                            src="/profile.jpeg"
                             alt="Profile Picture"
                         />
                 </Box>
