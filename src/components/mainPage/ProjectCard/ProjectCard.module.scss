@@ -62,21 +62,12 @@
 }
 
 @media screen and (max-width: 460px){
-    @keyframes highlight-effect {
-        0%, 100%{
-            box-shadow: 5px 5px 10px black;
-        }
-        50%{
-            box-shadow: 5px 5px 10px colors.$green;
-        }
-    }
-
     .card{
         width: 90vw;
         padding: 25px 20px 10px 20px;
 
         &:hover{
-            box-shadow: 5px 5px 10px black;
+            box-shadow: 5px 5px 0px black;
         }
     }
 }
