@@ -40,6 +40,7 @@ Verde clarinho e roxo (quase azul)
 --------
 
 Não esquecer de colocar Header em todas as páginas
+Ver negócio de <Image> ter que ter width e height
 Adicionar seta abaixo do Hero
 Estudar a possibilidade de o trigger do offcanvas descer com a página (position: fixed) - até para corrigir o bug de quando clicamos em "Projects" no OffCanvas e depois fechamos o OffCanvas, ele volta para o Hero
 Responsividade para telas muito grandes
