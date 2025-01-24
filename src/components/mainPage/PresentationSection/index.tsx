@@ -1,7 +1,6 @@
 import { Container } from "reactstrap"
 import styles from "./PresentationSection.module.scss"
 import Link from "next/link"
-import Image from "next/image"
 
 export default function PresentationSection() {
     return (
@@ -20,7 +19,7 @@ export default function PresentationSection() {
                     </p>
                 </Container>
                 <Container className={styles.aboutMeImageDiv}>
-                    <Image src="/programmer-art.svg" alt="A programmer coding..." className={styles.aboutMeImage} />
+                    <img src="/programmer-art.svg" alt="A programmer coding..." className={styles.aboutMeImage} />
                 </Container>
             </Container>
             <Container className={styles.techStack}>
@@ -38,7 +37,7 @@ export default function PresentationSection() {
                     </p>
                 </Container>
                 <Container className={styles.techStackImageDiv}>
-                    <Image src="/laptop.jpg" alt="A laptop" className={styles.techStackImage}/>
+                    <img src="/laptop.jpg" alt="A laptop" className={styles.techStackImage}/>
                 </Container>
             </Container>        
         </Container>

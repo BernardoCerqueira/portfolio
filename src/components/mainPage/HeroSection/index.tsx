@@ -2,7 +2,6 @@ import styles from "./HeroSection.module.scss"
 import { Box } from "@radix-ui/themes";
 import { Button} from "reactstrap";
 import { useRouter } from "next/router";
-import Image from "next/image";
 
 export default function HeroSection(){
     const router = useRouter()
@@ -26,7 +25,7 @@ export default function HeroSection(){
                     <Button onClick={handleClick}>Conhecer Mais</Button>
                 </Box>
                 <Box className={styles.greenDiv}> 
-                        <Image 
+                        <img 
                             className={styles.heroImg}
                             src="/profile-pic.jpg"
                             alt="Profile Picture"

@@ -1,4 +1,3 @@
-import Image from "next/image"
 import styles from "./ProjectCard.module.scss"
 
 type props = {
@@ -18,7 +17,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
             <div className={styles.card}>
                 <div className={styles.imgSection}>
                     <a href={`/projects/${pageName}`} target="_self">
-                        <Image
+                        <img
                             src={imgUrl}
                             alt={name}
                             className={ isSvg ? `${styles.img} ${styles.svg}` : styles.img}

@@ -64,7 +64,7 @@
     font-weight: bold;
     
     a{
-        transition: all 1s;
+        transition: all .7s;
         
         &:hover {
             margin-left: 10px;
@@ -86,7 +86,7 @@
 }
 
 .emailIcon {
-    transition: all 1s;
+    transition: all .7s;
 
     &:hover {
         transform: rotate(15deg);
@@ -94,7 +94,7 @@
 }
 
 .githubIcon {
-    transition: all 1s;
+    transition: all .7s;
 
     &:hover {
         transform: scale(1.15);
@@ -102,7 +102,7 @@
 }
 
 .linkedinIcon {
-    transition: all 1s;
+    transition: all .7s;
 
     &:hover {
         transform: rotate(-15deg);
