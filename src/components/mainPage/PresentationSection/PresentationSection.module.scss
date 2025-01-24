@@ -38,7 +38,7 @@
     }
     .aboutMeImageDiv{
         width: fit-content;
-        margin-top: 25px;
+        margin-top: -45px;
     }
     .aboutMeImage{
         width: 300px;
@@ -79,10 +79,10 @@
             font-size: 32px;
         }
         .aboutMeText{
-            font-size: 16px;
+            font-size: 17px;
         }
         .aboutMeImageDiv{
-            margin-top: -10px;
+            margin-top: -30px;
         }
     }
 
@@ -91,7 +91,7 @@
             font-size: 32px;
         }
         .techStackText{
-            font-size: 16px;
+            font-size: 17px;
         }
         .techStackImageDiv{
             margin-top: 15px;
@@ -131,10 +131,10 @@
             font-size: 28px;
         }
         .aboutMeText{
-            font-size: 14px;
+            font-size: 16px;
         }
         .aboutMeImage{
-            width: 200px;
+            width: 250px;
             margin: -4vw 0 -4vw 0;
         }
     }
@@ -146,7 +146,7 @@
             font-size: 28px;
         }
         .techStackText{
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }
@@ -154,10 +154,7 @@
 @media screen and (max-width: 390px) {
     .aboutMe{
         .aboutMeTitle{
-            font-size: 24px;
-        }
-        .aboutMeText{
-            font-size: 13px;
+            font-size: 25px;
         }
         .aboutMeImage{
             margin: -30px auto;
@@ -166,10 +163,7 @@
 
     .techStack{
         .techStackTitle{
-            font-size: 24px;
-        }
-        .techStackText{
-            font-size: 13px;
+            font-size: 25px;
         }
     }
 }

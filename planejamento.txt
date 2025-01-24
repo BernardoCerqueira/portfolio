@@ -47,7 +47,6 @@ Estudar a possibilidade de o trigger do offcanvas descer com a página (position
 Responsividade para telas muito grandes
 
 Mudar a foto de capa
-Menos texto da seção de apresentação
 Menu burguer ou inline?
 
 --------
