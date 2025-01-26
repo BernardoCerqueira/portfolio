@@ -43,6 +43,7 @@ Não esquecer de colocar Head (next/Head) em todas as páginas
 Responsividade para telas muito grandes
 
 Mudar a foto de capa
+Adicionar animação de entrada nas seções (AOS)
 
 --------
 

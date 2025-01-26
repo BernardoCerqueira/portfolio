@@ -32,7 +32,7 @@
         transition: all .5s;
 
         &:hover{
-            color: colors.$blue;
+            filter: opacity(0.8);
         }
     }
 
