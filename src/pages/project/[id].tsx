@@ -41,7 +41,6 @@ export default function Project() {
                         name={project.name}
                         link={project.link}
                         textLink={project.textLink}
-                        pictures={project.pictures ? project.pictures : ""}
                     />
                 </main>
                 <footer>

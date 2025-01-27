@@ -1,57 +1,27 @@
 import styles from "./ProjectSession.module.scss";
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 type props = {
     name: string
     link: string
     textLink: string
-    pictures: {
-        src: string,
-        alt: string
-    }[] | string
 }
 
-export default function ProjectSession({ name, link, textLink, pictures }: props) {
-
-    const items = pictures
-
+export default function ProjectSession({ name, link, textLink }: props) {
     return (
         <div className={styles.projectSession}>
             <h1 className={styles.title}>{name}</h1>
-            <a href={link} className={styles.link}>{textLink}</a>
-            {typeof items == "object"
-                ?
-                <Swiper
-                    modules={[Navigation, Pagination]}
-                    navigation
-                    pagination={{ clickable: true }}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    className={styles.swiper}
-                >
-                    {items.map((item, index) => (
-                        <SwiperSlide key={index} className={styles.swiperSlide}>
-                            {items[0].alt[0] === "V"
-                                ?
-                                <video controls>
-                                    <source src={item.src} type="video/mp4"/>
-                                    Seu navegador não suporta o elemento de vídeo.
-                                </video>
-                                :
-                                <img src={item.src} alt={item.alt} />
-                            }
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-                :
-                null
-            }
-            <p className={styles.description}></p>
+            <a
+                href={link}
+                target="_blank"
+                className={styles.link}
+            >
+                    {textLink}
+            </a>
+            <div className={styles.carousel}>
+                [CARROSSEL AQUI]
+            </div>
+            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni atque officia sint? Eligendi expedita alias obcaecati sapiente nobis ipsam temporibus iure? Blanditiis eaque voluptas nam voluptatem cum odio enim neque, reiciendis sint quaerat incidunt, laborum porro voluptate ad, quia rerum animi iusto nobis! Sit voluptatum harum culpa sunt porro doloribus, nostrum id quae molestiae sapiente ratione odit dicta iusto dolor deleniti voluptatem eius ducimus non enim. Cum exercitationem illum ab placeat repellendus, voluptates et facere. Doloremque adipisci rem ullam quam unde consequuntur, perferendis vel nemo dignissimos illum architecto autem nam veniam temporibus cum fugiat sapiente dolorum nesciunt! Tempora, expedita?</p>
         </div>
     )
 }
