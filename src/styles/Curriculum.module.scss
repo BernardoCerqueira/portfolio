@@ -1,0 +1,18 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    top: 0;
+    background-color: blue;
+}
+
+.main{
+    flex: 1;
+}
+
+.footer{
+    bottom: 0;
+}

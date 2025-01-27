@@ -1,5 +1,5 @@
 import React from "react";
-import CommonHeader from "@/components/common/CommonHeader";
+import MainHeader from "@/components/mainPage/MainHeader";
 import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
@@ -13,7 +13,7 @@ export default function Home() {
         <title>Bernardo Cerqueira | Portfólio</title>
         <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
       </Head>
-      <CommonHeader />
+      <MainHeader />
       <main>
         <div id="hero">
           <HeroSection />
