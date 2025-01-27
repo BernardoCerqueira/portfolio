@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./ExtendedFooter.module.scss"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -28,9 +29,9 @@ export default function ExtendedFooter() {
                                 <a href="#projects">
                                     <p className={styles.redirect}>Projetos</p>
                                 </a>
-                                <a href="/curriculum">
+                                <Link href="/curriculum">
                                     <p className={styles.redirect}>Currículo</p>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,6 @@ import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 import ProjectsSection from "@/components/mainPage/ProjectsSection";
 import Head from "next/head";
-import CurriculumSection from "@/components/curriculumPage/CurriculumSection";
 
 export default function Home() {
   return (
