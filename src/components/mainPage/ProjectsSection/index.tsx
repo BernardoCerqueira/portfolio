@@ -13,12 +13,12 @@ export default function ProjectsSection(){
                         {database.map((project) => (
                             <ProjectCard
                                 key={project.id}
+                                id={project.id}
                                 name={project.name}
                                 description={project.description}
                                 link={project.link}
                                 textLink={project.textLink}
                                 imgUrl={project.imgUrl}
-                                pageName={project.pageName}
                             />
                         ))}
                     </div>

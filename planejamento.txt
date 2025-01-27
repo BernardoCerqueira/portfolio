@@ -25,11 +25,11 @@ TELAS:
 
 2. Projects
   2.1. Projects Section: explicação sobre o projeto
-  2.2. Footer Section: o mesmo da main
+  2.2. Footer Section
 
 3. Currículo
-  3.1 Curriculum Section: pequena descrição e botão para baixar o currículo
-  3.2 Footer Section: o mesmo da main
+  3.1 Curriculum Section: pequena descrição e botão para baixar o currículo [OK]
+  3.2 Footer Section [OK]
 
 --------
 

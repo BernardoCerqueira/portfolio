@@ -1,22 +1,22 @@
 import styles from "./ProjectCard.module.scss"
 
 type props = {
+    id: number
     name: string
-    pageName: string
     description: string
     link: string
     textLink: string
     imgUrl: string
 }
 
-export default function ProjectCard({name, pageName, description, link, textLink, imgUrl}: props) {
+export default function ProjectCard({id, name, description, link, textLink, imgUrl}: props) {
     const isSvg = imgUrl.slice(-4) === ".svg"
 
     return (
         <>
             <div className={styles.card}>
                 <div className={styles.imgSection}>
-                    <a href={`/projects/${pageName}`} target="_self">
+                    <a href={`/project/${id}`} target="_self">
                         <img
                             src={imgUrl}
                             alt={name}
@@ -27,7 +27,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
                 <div className={styles.textSection}>
                     <h3 className={styles.title}>
                         <a
-                            href={`/projects/${pageName}`}
+                            href={`/project/${id}`}
                             target="_self"
                         >
                             {name}
@@ -35,7 +35,7 @@ export default function ProjectCard({name, pageName, description, link, textLink
                     </h3>
                     <p className={styles.linkText}>
                         <a
-                            href={link === "" ? `/projects/${pageName}` : link}
+                            href={link === "" ? `/project/${id}` : link}
                             rel="noopener noreferrer"
                             target={link === "" ? "_self" : "_blank"}
                             className={styles.link}
