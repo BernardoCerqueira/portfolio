@@ -16,7 +16,7 @@ export default function CommonHeader() {
     return (
         <>
             <nav className={styles.header}>
-                <Link href={"#header"}>
+                <Link href={"/#hero"}>
                     <img
                         src="/logo.png"
                         alt="Logo"
@@ -54,10 +54,10 @@ export default function CommonHeader() {
                     <OffcanvasBody className={styles.offcanvasBody}>
                         <ul className={styles.list}>
                             <li className={styles.listItem}>
-                                <Link href={"#hero"}>Home</Link>
+                                <Link href={"/"}>Home</Link>
                             </li>
                             <li className={styles.listItem}>
-                                <Link href={"#projects"}>Projetos</Link>
+                                <Link href={"/#projects"}>Projetos</Link>
                             </li>
                             <li className={styles.listItem}>
                                 <Link href={"/curriculum"}>Currículo</Link>

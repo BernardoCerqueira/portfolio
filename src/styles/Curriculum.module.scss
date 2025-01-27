@@ -5,13 +5,11 @@
 }
 
 .header{
-
+    top: 0;
 }
 
 .main{
-    flex: 1;
-}
-
-.footer{
-
+    flex-grow: 1;
+    height: fit-content;
+    background-color: transparent;
 }

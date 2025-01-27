@@ -1,9 +1,9 @@
 @use "../../../styles/colors.scss";
 
 .footer{
-    background-color: colors.$purple;
+    background-color: colors.$blue;
     color: colors.$green;
-    padding: 37px 40px 30px 40px;
+    padding: 20px 40px;
 
     display: flex;
     justify-content: space-between;
