@@ -1,5 +1,6 @@
 import Head from "next/head";
 import CommonFooter from "@/components/common/CommonFooter"
+import CommonHeader from "@/components/common/CommonHeader"
 import styles from "@/styles/Curriculum.module.scss"
 
 export default function Curriculum() {
@@ -11,7 +12,7 @@ export default function Curriculum() {
             </Head>
             <div className={styles.page}>  
                 <header className={styles.header}>
-                    
+                    <CommonHeader/>
                 </header>
                 <main className={styles.main}>
 
