@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { database } from "@/database"
 import { useRouter } from "next/router"
-import Error from "@/components/projectsPage/Error"
+import Error from "@/components/projectPage/Error"
 
 export default function Project() {
     const router = useRouter()
