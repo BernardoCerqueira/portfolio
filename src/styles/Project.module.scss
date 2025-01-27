@@ -1,0 +1,15 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    top: 0;
+}
+
+.main{
+    flex-grow: 1;
+    height: fit-content;
+    background-color: transparent;
+}
