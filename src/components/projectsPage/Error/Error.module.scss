@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    place-content: center;
+    place-items: center;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 20px 30px;
+}

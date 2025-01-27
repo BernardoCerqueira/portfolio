@@ -1,6 +1,7 @@
 import Head from "next/head"
 import { database } from "@/database"
 import { useRouter } from "next/router"
+import Error from "@/components/projectsPage/Error"
 
 export default function Project() {
     const router = useRouter()
@@ -8,14 +9,15 @@ export default function Project() {
     
     if(!id){
         return(
-            <h1>Não foi possível encontrar esse projeto...</h1>
+            <Error/>
         )
     }
 
     const project = database.find(p => p.id == +id)
+
     if(!project){
         return(
-            <h1>Não foi possível encontrar esse projeto...</h1>
+            <Error/>
         )
     }
 
