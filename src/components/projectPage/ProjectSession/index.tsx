@@ -21,9 +21,9 @@ export default function ProjectSession({ name, link, textLink, pictures }: props
     const items = pictures
 
     return (
-        <>
-            <h1>{name}</h1>
-            <a href={link}>{textLink}</a>
+        <div className={styles.projectSession}>
+            <h1 className={styles.title}>{name}</h1>
+            <a href={link} className={styles.link}>{textLink}</a>
             {typeof items == "object"
                 ?
                 <Swiper
@@ -36,14 +36,23 @@ export default function ProjectSession({ name, link, textLink, pictures }: props
                 >
                     {items.map((item, index) => (
                         <SwiperSlide key={index} className={styles.swiperSlide}>
-                            <img src={item.src} alt={item.alt} />
+                            {items[0].alt[0] === "V"
+                                ?
+                                <video controls>
+                                    <source src={item.src} type="video/mp4"/>
+                                    Seu navegador não suporta o elemento de vídeo.
+                                </video>
+                                :
+                                <img src={item.src} alt={item.alt} />
+                            }
                         </SwiperSlide>
                     ))}
                 </Swiper>
                 :
                 null
             }
-        </>
+            <p className={styles.description}></p>
+        </div>
     )
 }
 

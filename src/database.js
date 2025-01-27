@@ -7,9 +7,9 @@ export const database = [
         textLink: "",
         imgUrl: "/projects/onebitflix.svg",
         pictures: [
-            { src: 'https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b', alt: 'Slide 1' },
-            { src: 'https://picsum.photos/id/456/1200/400', alt: 'Slide 2' },
-            { src: 'https://picsum.photos/id/678/1200/400', alt: 'Slide 3' },
+            { src: 'https://github.com/user-attachments/assets/d5d66479-f13f-4fff-9bad-c2577c0bc6ed', alt: 'Video 1' },
+            { src: 'https://github.com/user-attachments/assets/d5d66479-f13f-4fff-9bad-c2577c0bc6ed', alt: 'Video 2' },
+            { src: 'https://github.com/user-attachments/assets/d5d66479-f13f-4fff-9bad-c2577c0bc6ed', alt: 'Video 3' },
         ]
     },
     {
@@ -19,6 +19,11 @@ export const database = [
         link: "https://bernardocerqueira.github.io/rocketX/",
         textLink: "rocketX.github.io",
         imgUrl: "/projects/rocketx.jpg",
+        pictures: [
+            { src: 'https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b', alt: 'Slide 1' },
+            { src: 'https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b', alt: 'Slide 2' },
+            { src: 'https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b', alt: 'Slide 3' },
+        ]
     },
     {
         id: 3,
