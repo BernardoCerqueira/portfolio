@@ -44,7 +44,7 @@ export default function Project() {
                         techList={project.techList}
                     />
                 </main>
-                <footer>
+                <footer className={styles.footer}>
                     <CommonFooter />
                 </footer>
             </div>
