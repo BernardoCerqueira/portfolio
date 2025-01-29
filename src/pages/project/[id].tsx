@@ -41,6 +41,7 @@ export default function Project() {
                         name={project.name}
                         link={project.link}
                         textLink={project.textLink}
+                        techList={project.techList}
                     />
                 </main>
                 <footer>

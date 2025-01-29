@@ -6,6 +6,10 @@ export const database = [
         link: "",
         textLink: "",
         imgUrl: "/projects/onebitflix.svg",
+        techList: {
+            backend: "Node.js, Express, Sequelize e AdminJS.",
+            frontend: "React, Next.js, Bootstrap e CSS/Sass."
+        }
     },
     {
         id: 2,
@@ -14,6 +18,9 @@ export const database = [
         link: "https://bernardocerqueira.github.io/rocketX/",
         textLink: "rocketX.github.io",
         imgUrl: "/projects/rocketx.jpg",
+        techList: {
+            general: "HTML, Sass e Bootstrap."
+        }
     },
     {
         id: 3,
@@ -22,6 +29,9 @@ export const database = [
         link: "https://draw-simulator-psi.vercel.app/",
         textLink: "draw-simulator.app",
         imgUrl: "/projects/drawsimulator.png",
+        techList: {
+            general: "TypeScript, React, Next.js, Bootstrap e CSS/Sass."
+        }
     },
     {
         id: 4,
@@ -30,6 +40,10 @@ export const database = [
         link: "https://black-nextjs-xi-six.vercel.app/",
         textLink: "black-nextjs.app",
         imgUrl: "/projects/black.jpg",
+        readMe: "",
+        techList: {
+            general: "TypeScript, React, Next.js e CSS."
+        }
     },
     {
         id: 5,
@@ -38,6 +52,9 @@ export const database = [
         link: "",
         textLink: "",
         imgUrl: "/projects/leads-api.jpg",
+        techList: {
+            general: "TypeScript, Node.js, PostgreSQL, Prisma ORM and Insomnia (para teste de rotas)."        
+        }
     },
     {
         id: 6,
@@ -46,5 +63,8 @@ export const database = [
         link: "",
         textLink: "",
         imgUrl: "/projects/stockManager.jpg",
+        techList: {
+            general: "JavaScript, React.js, Bootstrap e CSS."
+        }
     }
 ]

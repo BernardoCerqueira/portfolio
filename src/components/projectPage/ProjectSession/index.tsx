@@ -1,3 +1,4 @@
+import ReadMe from "../Readme";
 import styles from "./ProjectSession.module.scss";
 import React from 'react';
 
@@ -5,9 +6,10 @@ type props = {
     name: string
     link: string
     textLink: string
+    techList: {backend?: string, frontend?: string, general?: string}
 }
 
-export default function ProjectSession({ name, link, textLink }: props) {
+export default function ProjectSession({ name, link, textLink, techList }: props) {
     return (
         <div className={styles.projectSession}>
             <h1 className={styles.title}>{name}</h1>
@@ -21,7 +23,21 @@ export default function ProjectSession({ name, link, textLink }: props) {
             <div className={styles.carousel}>
                 [CARROSSEL AQUI]
             </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni atque officia sint? Eligendi expedita alias obcaecati sapiente nobis ipsam temporibus iure? Blanditiis eaque voluptas nam voluptatem cum odio enim neque, reiciendis sint quaerat incidunt, laborum porro voluptate ad, quia rerum animi iusto nobis! Sit voluptatum harum culpa sunt porro doloribus, nostrum id quae molestiae sapiente ratione odit dicta iusto dolor deleniti voluptatem eius ducimus non enim. Cum exercitationem illum ab placeat repellendus, voluptates et facere. Doloremque adipisci rem ullam quam unde consequuntur, perferendis vel nemo dignissimos illum architecto autem nam veniam temporibus cum fugiat sapiente dolorum nesciunt! Tempora, expedita?</p>
+            <div className={styles.techList}>
+                <p>Tecnologias utilizadas:</p>
+                <p>
+                    {techList.frontend ? "Frontend: " + techList.frontend : null}
+                </p> 
+                <p>
+                    {techList.backend ? "Backend: " + techList.backend : null}
+                </p>
+                <p>
+                    {techList.general ? techList.general : null}
+                </p>
+            </div>
+            <div className={styles.description}>
+                <ReadMe projectName={name}/>
+            </div>
         </div>
     )
 }
