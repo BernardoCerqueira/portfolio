@@ -25,6 +25,26 @@
     margin: 4rem auto;
 }
 
-.description{
+.techList{
+    display: flex;
+    flex-direction: column;
 
+    p{
+        margin: 0;
+    }
+
+    .techListTitle{
+        color: colors.$blue;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .techListItem{
+        margin: 0px;
+        padding: 0;
+    }
+}
+
+.description{
+    margin-top: 2rem;
 }
