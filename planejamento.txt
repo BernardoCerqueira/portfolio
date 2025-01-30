@@ -33,17 +33,11 @@ TELAS:
 
 --------
 
-CORES PRINCIPAIS:
-
-Verde clarinho e roxo (quase azul)
-
---------
-
-Não esquecer de colocar Head (next/Head) em todas as páginas
 Responsividade para telas muito grandes
-
 Mudar a foto de capa
 Adicionar animação de entrada nas seções (AOS)
+
+Botões para navegação entre projetos
 
 --------
 
@@ -55,5 +49,3 @@ PROJETOS:
 4. BLACK: e-commerce (front-end)
 5. Leads API (back-end)
 6. Stock Manager (front-end com um pé no back-end)
-7. Kanban (front-end)
-8. Tic-tac-toe (lógica)
