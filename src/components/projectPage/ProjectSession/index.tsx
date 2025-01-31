@@ -27,12 +27,12 @@ export default function ProjectSession({ name, link, textLink, techList, carouse
             >
                 {textLink}
             </a>
-            <div className={styles.carousel}>
-                {carouselImages ? 
-                <ReactStrapCarousel images={carouselImages}/>
+            {carouselImages ? 
+                <div className={styles.carousel}>
+                    <ReactStrapCarousel images={carouselImages}/>
+                </div>
                 : null        
             }
-            </div>
             <div className={styles.techList}>
                 <div>
                     <span className={styles.techListTitle}>Tecnologias utilizadas: </span>

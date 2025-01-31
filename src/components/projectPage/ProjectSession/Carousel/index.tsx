@@ -1,3 +1,4 @@
+import styles from "./Carousel.module.scss"
 import Image from 'next/image';
 import React, { useState } from 'react';
 import {
@@ -77,17 +78,20 @@ function ReactStrapCarousel({images}: props) {
           items={items}
           activeIndex={activeIndex}
           onClickHandler={goToIndex}
+          className={styles.indicators}
         />
         {slides}
         <CarouselControl
           direction="prev"
           directionText="Previous"
           onClickHandler={previous}
+          className={styles.control}
         />
         <CarouselControl
           direction="next"
           directionText="Next"
           onClickHandler={next}
+          className={styles.control}
         />
       </Carousel>
     );

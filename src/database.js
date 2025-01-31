@@ -141,6 +141,38 @@ export const database = [
         imgUrl: "/projects/stockManager.jpg",
         techList: {
             general: "JavaScript, React.js, Bootstrap e CSS."
-        }
+        },
+        carouselImages: [
+            {
+                src: "https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b",
+                altText: "",
+                caption: "",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/b0ba3b22-93d9-4f0e-8987-6b0bf635e606",
+                altText: "",
+                caption: "",
+                key: 2
+            },
+            {
+                src: "https://github.com/user-attachments/assets/4b6b884f-9257-4547-865f-5b2d1390bb6c",
+                altText: "",
+                caption: "",
+                key: 3
+            },
+            {
+                src: "https://github.com/user-attachments/assets/27264d98-ec6f-4f8c-912d-bb44b81640a1",
+                altText: "",
+                caption: "",
+                key: 4
+            },
+            {
+                src: "https://github.com/user-attachments/assets/296a76ea-35e2-46f9-a479-480af2b61a57",
+                altText: "",
+                caption: "",
+                key: 5
+            },
+        ]
     }
 ]
