@@ -119,7 +119,27 @@ export const database = [
         readMe: "",
         techList: {
             general: "TypeScript, React, Next.js e CSS."
-        }
+        },
+        carouselImages: [
+            {
+                src: "https://github.com/user-attachments/assets/65300097-9e23-4ba3-9bc6-f540e9a97151",
+                altText: "",
+                caption: "",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/d32ae317-2fca-4702-b84c-ef78e108ebf3",
+                altText: "",
+                caption: "",
+                key: 2
+            },
+            {
+                src: "https://github.com/user-attachments/assets/8517b88b-a169-478c-87c4-af7aed033699",
+                altText: "",
+                caption: "",
+                key: 3
+            },
+        ]
     },
     {
         id: 5,

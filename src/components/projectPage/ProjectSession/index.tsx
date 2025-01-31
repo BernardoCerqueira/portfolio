@@ -29,7 +29,7 @@ export default function ProjectSession({ name, link, textLink, techList, carouse
             </a>
             {carouselImages ? 
                 <div className={styles.carousel}>
-                    <ReactStrapCarousel images={carouselImages}/>
+                    <ReactStrapCarousel images={carouselImages} name={name}/>
                 </div>
                 : null        
             }

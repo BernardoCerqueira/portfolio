@@ -16,10 +16,11 @@ type props = {
         altText: string,
         caption: string,
         key: number
-    }[]
+    }[],
+    name: string
 }
 
-function ReactStrapCarousel({images}: props) {
+function ReactStrapCarousel({images, name}: props) {
 
     const items = images
 
@@ -73,6 +74,7 @@ function ReactStrapCarousel({images}: props) {
         activeIndex={activeIndex}
         next={next}
         previous={previous}
+        dark={name === "BLACK: e-commerce"}
       >
         <CarouselIndicators
           items={items}
