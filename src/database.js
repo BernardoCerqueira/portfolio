@@ -24,38 +24,38 @@ export const database = [
         carouselImages: [
             {
                 src: "https://github.com/user-attachments/assets/9c8959ec-f11b-4a70-8747-bb39b386ee3e",
-                altText: "",
-                caption: "",
+                altText: "Home",
+                caption: "Home",
                 key: 1
             },
             {
                 src: "https://github.com/user-attachments/assets/dba767d2-079f-4b46-a4ee-146264d180e8",
-                altText: "",
-                caption: "",
+                altText: "Falcon 9",
+                caption: "Falcon 9",
                 key: 2
             },
             {
                 src: "https://github.com/user-attachments/assets/104bbaf6-d692-4ef0-b215-bcb845aacd52",
-                altText: "",
-                caption: "",
+                altText: "Human Spaceflight",
+                caption: "Human Spaceflight",
                 key: 3
             },
             {
                 src: "https://github.com/user-attachments/assets/e260702d-488d-4864-a317-1b51516affd5",
-                altText: "",
-                caption: "",
+                altText: "Planeta Terra",
+                caption: "Planeta Terra",
                 key: 4
             },
             {
                 src: "https://github.com/user-attachments/assets/60152e6d-b1fa-42b7-befd-dc379e29c476",
-                altText: "",
-                caption: "",
+                altText: "Planeta Marte",
+                caption: "Planeta Marte",
                 key: 5
             },
             {
                 src: "https://github.com/user-attachments/assets/63f8ffd8-39d9-4e57-887d-6135e867ba40",
-                altText: "",
-                caption: "",
+                altText: "Estatísticas",
+                caption: "Estatísticas",
                 key: 6
             },
         ]
@@ -73,38 +73,38 @@ export const database = [
         carouselImages: [
             {
                 src: "https://github.com/user-attachments/assets/d68001be-f8c0-461a-a0a1-9aaea0cf4d39",
-                altText: "",
-                caption: "",
+                altText: "Home",
+                caption: "Home",
                 key: 1
             },
             {
                 src: "https://github.com/user-attachments/assets/e1094a8d-012f-49df-b9b8-a2fe4e51f73f",
-                altText: "",
-                caption: "",
+                altText: "Seleção do tipo de sorteio",
+                caption: "Seleção do tipo de sorteio",
                 key: 2
             },
             {
                 src: "https://github.com/user-attachments/assets/1ab1d213-0ca4-4a65-9ad7-de1bccaddb85",
-                altText: "",
-                caption: "",
+                altText: "Sorteio sem potes",
+                caption: "Sorteio sem potes",
                 key: 3
             },
             {
                 src: "https://github.com/user-attachments/assets/440ad4fa-2d7b-4e3f-8b02-59dd8ec0ba0f",
-                altText: "",
-                caption: "",
+                altText: "Sorteio com potes",
+                caption: "Sorteio com potes",
                 key: 4
             },
             {
                 src: "https://github.com/user-attachments/assets/d235e832-70ac-4f25-824d-81a44788f3e8",
-                altText: "",
-                caption: "",
+                altText: "Resultado do sorteio sem potes",
+                caption: "Resultado do sorteio sem potes",
                 key: 5
             },
             {
                 src: "https://github.com/user-attachments/assets/89993f5d-67ac-4eb4-828d-c123ee46a3e6",
-                altText: "",
-                caption: "",
+                altText: "Resultado do sorteio com potes",
+                caption: "Resultado do sorteio com potes",
                 key: 6
             },
         ]
@@ -123,20 +123,20 @@ export const database = [
         carouselImages: [
             {
                 src: "https://github.com/user-attachments/assets/65300097-9e23-4ba3-9bc6-f540e9a97151",
-                altText: "",
-                caption: "",
+                altText: "Home",
+                caption: "Home",
                 key: 1
             },
             {
                 src: "https://github.com/user-attachments/assets/d32ae317-2fca-4702-b84c-ef78e108ebf3",
-                altText: "",
-                caption: "",
+                altText: "Catálogo de Produtos",
+                caption: "Catálogo de Produtos",
                 key: 2
             },
             {
                 src: "https://github.com/user-attachments/assets/8517b88b-a169-478c-87c4-af7aed033699",
-                altText: "",
-                caption: "",
+                altText: "Carrinho interativo",
+                caption: "Carrinho interativo",
                 key: 3
             },
         ]
@@ -165,32 +165,32 @@ export const database = [
         carouselImages: [
             {
                 src: "https://github.com/user-attachments/assets/5a379e09-b3e7-48c2-af04-a40698abae6b",
-                altText: "",
-                caption: "",
+                altText: "Dashboard",
+                caption: "Dashboard",
                 key: 1
             },
             {
                 src: "https://github.com/user-attachments/assets/b0ba3b22-93d9-4f0e-8987-6b0bf635e606",
-                altText: "",
-                caption: "",
+                altText: "Ver itens",
+                caption: "Ver itens",
                 key: 2
             },
             {
                 src: "https://github.com/user-attachments/assets/4b6b884f-9257-4547-865f-5b2d1390bb6c",
-                altText: "",
-                caption: "",
+                altText: "Ver item específico",
+                caption: "Ver item específico",
                 key: 3
             },
             {
                 src: "https://github.com/user-attachments/assets/27264d98-ec6f-4f8c-912d-bb44b81640a1",
-                altText: "",
-                caption: "",
+                altText: "Criar novo item",
+                caption: "Criar novo item",
                 key: 4
             },
             {
                 src: "https://github.com/user-attachments/assets/296a76ea-35e2-46f9-a479-480af2b61a57",
-                altText: "",
-                caption: "",
+                altText: "Atualizar item",
+                caption: "Atualizar item",
                 key: 5
             },
         ]
