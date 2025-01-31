@@ -1,4 +1,5 @@
 import ReadMe from "../Readme";
+import ReactStrapCarousel from "./Carousel";
 import styles from "./ProjectSession.module.scss";
 import React from 'react';
 
@@ -21,7 +22,7 @@ export default function ProjectSession({ name, link, textLink, techList }: props
                 {textLink}
             </a>
             <div className={styles.carousel}>
-                [CARROSSEL AQUI]
+                <ReactStrapCarousel/>
             </div>
             <div className={styles.techList}>
                 <div>

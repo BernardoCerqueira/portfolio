@@ -26,6 +26,9 @@
 
 .carousel{
     margin: 4rem auto 5rem auto;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 0%;
 }
 
 .techList{
@@ -55,6 +58,12 @@
     width: 100%;
     padding: 0 15vw;
     text-align: justify;
+}
+
+@media screen and (max-width: 801px){
+    .carousel{
+        width: 96%;
+    }
 }
 
 @media screen and (max-width: 491px) {
