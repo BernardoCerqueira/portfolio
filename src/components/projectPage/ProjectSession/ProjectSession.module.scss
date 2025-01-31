@@ -26,9 +26,9 @@
 
 .carousel{
     margin: 4rem auto 5rem auto;
-    width: 800px;
-    border: 1px solid black;
+    width: 1000px;
     border-radius: 0%;
+
 }
 
 .techList{
@@ -60,21 +60,36 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 801px){
+@media screen and (max-width: 1001px){
     .carousel{
-        width: 96%;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
     }
 }
 
 @media screen and (max-width: 491px) {
     .title{
-        margin-top: 2rem;
+        margin-top: 3rem;
         font-size: 36px;
-
         text-align: center;
     }
 
     .description, .techList{
         padding: 0 7vw;
+    }
+
+    .carousel{
+        width: 100%;
+        margin-top: -28vw;
+        margin-bottom: -28vw;
+
+        img{
+            width: 300%;
+            transform: scale(.4);
+            margin: 0 0 0 -100vw;
+        }
     }
 }

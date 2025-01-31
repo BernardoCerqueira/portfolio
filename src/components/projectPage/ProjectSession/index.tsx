@@ -8,9 +8,15 @@ type props = {
     link: string
     textLink: string
     techList: { backend?: string, frontend?: string, general?: string }
+    carouselImages?: {
+        src: string,
+        altText: string,
+        caption: string,
+        key: number
+    }[]
 }
 
-export default function ProjectSession({ name, link, textLink, techList }: props) {
+export default function ProjectSession({ name, link, textLink, techList, carouselImages }: props) {
     return (
         <div className={styles.projectSession}>
             <h1 className={styles.title}>{name}</h1>
@@ -22,7 +28,10 @@ export default function ProjectSession({ name, link, textLink, techList }: props
                 {textLink}
             </a>
             <div className={styles.carousel}>
-                <ReactStrapCarousel/>
+                {carouselImages ? 
+                <ReactStrapCarousel images={carouselImages}/>
+                : null        
+            }
             </div>
             <div className={styles.techList}>
                 <div>

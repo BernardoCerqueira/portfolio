@@ -20,7 +20,45 @@ export const database = [
         imgUrl: "/projects/rocketx.jpg",
         techList: {
             general: "HTML, Sass e Bootstrap."
-        }
+        },
+        carouselImages: [
+            {
+                src: "https://github.com/user-attachments/assets/9c8959ec-f11b-4a70-8747-bb39b386ee3e",
+                altText: "",
+                caption: "",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/dba767d2-079f-4b46-a4ee-146264d180e8",
+                altText: "",
+                caption: "",
+                key: 2
+            },
+            {
+                src: "https://github.com/user-attachments/assets/104bbaf6-d692-4ef0-b215-bcb845aacd52",
+                altText: "",
+                caption: "",
+                key: 3
+            },
+            {
+                src: "https://github.com/user-attachments/assets/e260702d-488d-4864-a317-1b51516affd5",
+                altText: "",
+                caption: "",
+                key: 4
+            },
+            {
+                src: "https://github.com/user-attachments/assets/60152e6d-b1fa-42b7-befd-dc379e29c476",
+                altText: "",
+                caption: "",
+                key: 5
+            },
+            {
+                src: "https://github.com/user-attachments/assets/63f8ffd8-39d9-4e57-887d-6135e867ba40",
+                altText: "",
+                caption: "",
+                key: 6
+            },
+        ]
     },
     {
         id: 3,
@@ -31,7 +69,45 @@ export const database = [
         imgUrl: "/projects/drawsimulator.png",
         techList: {
             general: "TypeScript, React, Next.js, Bootstrap e CSS/Sass."
-        }
+        },
+        carouselImages: [
+            {
+                src: "https://github.com/user-attachments/assets/d68001be-f8c0-461a-a0a1-9aaea0cf4d39",
+                altText: "",
+                caption: "",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/e1094a8d-012f-49df-b9b8-a2fe4e51f73f",
+                altText: "",
+                caption: "",
+                key: 2
+            },
+            {
+                src: "https://github.com/user-attachments/assets/1ab1d213-0ca4-4a65-9ad7-de1bccaddb85",
+                altText: "",
+                caption: "",
+                key: 3
+            },
+            {
+                src: "https://github.com/user-attachments/assets/440ad4fa-2d7b-4e3f-8b02-59dd8ec0ba0f",
+                altText: "",
+                caption: "",
+                key: 4
+            },
+            {
+                src: "https://github.com/user-attachments/assets/d235e832-70ac-4f25-824d-81a44788f3e8",
+                altText: "",
+                caption: "",
+                key: 5
+            },
+            {
+                src: "https://github.com/user-attachments/assets/89993f5d-67ac-4eb4-828d-c123ee46a3e6",
+                altText: "",
+                caption: "",
+                key: 6
+            },
+        ]
     },
     {
         id: 4,

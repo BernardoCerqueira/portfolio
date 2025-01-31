@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import {
     Carousel,
@@ -6,30 +7,21 @@ import {
     CarouselIndicators,
     CarouselCaption,
   } from 'reactstrap';
-  
 
-const items = [
-    {
-      src: 'https://picsum.photos/id/123/1200/400',
-      altText: 'Slide 1',
-      caption: 'Slide 1',
-      key: 1,
-    },
-    {
-      src: 'https://picsum.photos/id/456/1200/400',
-      altText: 'Slide 2',
-      caption: 'Slide 2',
-      key: 2,
-    },
-    {
-      src: 'https://picsum.photos/id/678/1200/400',
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      key: 3,
-    },
-];
 
-function ReactStrapCarousel() {
+type props = {
+    images: {
+        src: string,
+        altText: string,
+        caption: string,
+        key: number
+    }[]
+}
+
+function ReactStrapCarousel({images}: props) {
+
+    const items = images
+
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
@@ -57,12 +49,15 @@ function ReactStrapCarousel() {
           onExited={() => setAnimating(false)}
           key={item.src}
         >
-          <img
+          <Image
             src={item.src}
             alt={item.altText}
+            width={1000}
+            height={200}
             style={{
-              objectFit: "cover",
-              objectPosition: "center",
+                height: "auto",
+                objectFit: "contain",
+                objectPosition: "center",
             }}
         />
           <CarouselCaption
