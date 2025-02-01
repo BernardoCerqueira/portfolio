@@ -21,11 +21,10 @@ type props = {
 }
 
 function ReactStrapCarousel({images, name}: props) {
-
     const items = images
 
-    const [activeIndex, setActiveIndex] = useState(0);
-    const [animating, setAnimating] = useState(false);
+    const [activeIndex, setActiveIndex] = useState(0)
+    const [animating, setAnimating] = useState(false)
   
     const next = () => {
       if (animating) return;

@@ -7,6 +7,7 @@ import CommonHeader from "@/components/common/CommonHeader"
 import CommonFooter from "@/components/common/CommonFooter"
 import ProjectSession from "@/components/projectPage/ProjectSession"
 import { GetStaticPaths, GetStaticProps } from "next"
+import Controller from "@/components/projectPage/Controller"
 
 export default function Project() {
     const router = useRouter()
@@ -45,6 +46,7 @@ export default function Project() {
                         carouselImages={project.carouselImages}
                         carouselVideos={project.carouselVideos}
                     />
+                    <Controller id={id}/>
                 </main>
                 <footer className={styles.footer}>
                     <CommonFooter />

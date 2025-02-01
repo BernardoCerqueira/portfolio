@@ -33,11 +33,8 @@ TELAS:
 
 --------
 
-Spinner para carregamento do carrossel
-
 Responsividade para telas muito grandes
 Mudar a foto de capa
-Adicionar animação de entrada nas seções (AOS)
 
 Botões para navegação entre projetos
 
