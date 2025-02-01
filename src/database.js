@@ -145,8 +145,8 @@ export const database = [
         id: 5,
         name: "Leads API",
         description: "Gerenciamento completo de Leads, Grupos e Campanhas. O usuário pode criar, ver, atualizar e excluir registros. Conta com paginação e filtros.",
-        link: "",
-        textLink: "",
+        link: "https://github.com/BernardoCerqueira/leads_api",
+        textLink: "Confira o README do projeto",
         imgUrl: "/projects/leads-api.jpg",
         techList: {
             general: "TypeScript, Node.js, PostgreSQL, Prisma ORM and Insomnia (para teste de rotas)."        
