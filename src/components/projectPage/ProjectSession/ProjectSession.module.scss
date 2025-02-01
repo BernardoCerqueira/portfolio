@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 491px) {
     .title{
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-size: 36px;
         text-align: center;
     }
@@ -89,11 +89,5 @@
         margin-top: -32vw;
         margin-bottom: -46vw;
         border-color: transparent;
-
-        img{
-            width: 300%;
-            transform: scale(.4);
-            margin: 0 0 0 -91vw;
-        }
     }
 }

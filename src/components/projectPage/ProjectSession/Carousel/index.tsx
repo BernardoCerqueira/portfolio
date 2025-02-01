@@ -75,6 +75,7 @@ function ReactStrapCarousel({images, name}: props) {
         next={next}
         previous={previous}
         dark={name === "BLACK: e-commerce"}
+        className={styles.carousel}
       >
         <CarouselIndicators
           items={items}
