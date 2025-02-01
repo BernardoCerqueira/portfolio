@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0 15vw;
+    padding: 0 12vw;
     margin-top: 3rem;
 
     p{
@@ -59,7 +59,7 @@
 .description{
     margin-top: 2rem;
     width: 100%;
-    padding: 0 15vw;
+    padding: 0 12vw;
     text-align: justify;
 }
 
@@ -90,11 +90,10 @@
         margin-bottom: -46vw;
         border-color: transparent;
 
-        img, video{
+        img{
             width: 300%;
             transform: scale(.4);
             margin: 0 0 0 -91vw;
         }
-
     }
 }
