@@ -1,12 +1,12 @@
 import styles from "@/styles/Project.module.scss"
-import Head from "next/head"
 import { database } from "@/database"
+import { GetStaticPaths, GetStaticProps } from "next"
+import Head from "next/head"
 import { useRouter } from "next/router"
 import Error from "@/components/projectPage/Error"
 import CommonHeader from "@/components/common/CommonHeader"
 import CommonFooter from "@/components/common/CommonFooter"
 import ProjectSession from "@/components/projectPage/ProjectSession"
-import { GetStaticPaths, GetStaticProps } from "next"
 import Controller from "@/components/projectPage/Controller"
 
 export default function Project() {

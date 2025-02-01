@@ -1,10 +1,10 @@
 import React from "react";
+import Head from "next/head";
 import MainHeader from "@/components/mainPage/MainHeader";
 import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 import ProjectsSection from "@/components/mainPage/ProjectsSection";
-import Head from "next/head";
 
 export default function Home() {
   return (

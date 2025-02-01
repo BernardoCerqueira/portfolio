@@ -1,7 +1,7 @@
+import styles from "@/styles/Curriculum.module.scss"
 import Head from "next/head";
 import CommonFooter from "@/components/common/CommonFooter"
 import CommonHeader from "@/components/common/CommonHeader"
-import styles from "@/styles/Curriculum.module.scss"
 import CurriculumSection from "@/components/curriculumPage/CurriculumSection";
 
 export default function Curriculum() {

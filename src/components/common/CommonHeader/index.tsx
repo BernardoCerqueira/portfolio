@@ -34,7 +34,6 @@ export default function CommonHeader() {
                 >
                     <IoMenuOutline className={styles.offcanvasIcon} />
                 </Button>
-
             </nav>
             <div>
                 <Offcanvas
