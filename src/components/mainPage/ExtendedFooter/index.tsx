@@ -3,15 +3,26 @@ import styles from "./ExtendedFooter.module.scss"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Container } from "reactstrap";
+import { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 
 export default function ExtendedFooter() {
     const date = new Date()
     const year = date.getFullYear()
 
+    useEffect(() => {
+        Aos.init({
+            duration: 1000,
+            once: true
+        })
+    }, [])
+
     return (
         <>
             <footer className={styles.footer}>
-                <Container className={styles.footerContainer}>
+                <Container className={styles.footerContainer}data-aos="fade-right">
                     <div className={styles.topFooter}>
                         <h2>ENTRE EM CONTATO</h2>
                         <div className={styles.flex}>
