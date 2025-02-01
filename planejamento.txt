@@ -24,14 +24,16 @@ TELAS:
   +offcanvas com as opções "Home", "Projetos" e "Currículo" [OK]
 
 2. Projects
-  2.1. Projects Section: explicação sobre o projeto
-  2.2. Footer Section
+  2.1. Projects Section: explicação sobre o projeto [OK]
+  2.2. Footer Section [OK]
 
 3. Currículo
   3.1 Curriculum Section: pequena descrição e botão para baixar o currículo [OK]
   3.2 Footer Section [OK]
 
 --------
+
+Carrossel de vídeos do OneBitFlix
 
 Responsividade para telas muito grandes
 Mudar a foto de capa
