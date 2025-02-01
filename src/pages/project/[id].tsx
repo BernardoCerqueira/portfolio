@@ -43,6 +43,7 @@ export default function Project() {
                         textLink={project.textLink}
                         techList={project.techList}
                         carouselImages={project.carouselImages}
+                        carouselVideos={project.carouselVideos}
                     />
                 </main>
                 <footer className={styles.footer}>

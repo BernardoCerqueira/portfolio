@@ -9,7 +9,63 @@ export const database = [
         techList: {
             backend: "Node.js, Express, Sequelize e AdminJS.",
             frontend: "React, Next.js, Bootstrap e CSS/Sass."
-        }
+        },
+        carouselVideos: [
+            {
+                src: "https://github.com/user-attachments/assets/d5d66479-f13f-4fff-9bad-c2577c0bc6ed",
+                altText: "Home (não logada)",
+                caption: "Home (não logada)",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/a58572cd-bdbb-4f33-bb34-207b2007b3f1",
+                altText: "Registro",
+                caption: "Registro",
+                key: 2
+            },
+            {
+                src: "https://github.com/user-attachments/assets/a1207445-feef-461d-aade-57695a1954ee",
+                altText: "Login",
+                caption: "Login",
+                key: 3
+            },
+            {
+                src: "https://github.com/user-attachments/assets/0a03fca0-e6a6-484e-9662-a35a33ba74bb",
+                altText: "Home (logada)",
+                caption: "Home (logada)",
+                key: 4
+            },
+            {
+                src: "https://github.com/user-attachments/assets/2d8f2f3d-f2f0-4487-bd02-56a8c38f6b5a",
+                altText: "Pesquisa",
+                caption: "Pesquisa",
+                key: 5
+            },
+            {
+                src: "https://github.com/user-attachments/assets/53c78e01-1a2b-46f9-a6eb-83ce49bd9b53",
+                altText: "Perfil do usuário",
+                caption: "Perfil do usuário",
+                key: 6
+            },
+            {
+                src: "https://github.com/user-attachments/assets/39f02d12-a4ac-423f-badf-47dc09f77993",
+                altText: "Perfil do usuário",
+                caption: "Perfil do usuário",
+                key: 7
+            },
+            {
+                src: "https://github.com/user-attachments/assets/75a04267-a957-4797-958e-9764553e7f4a",
+                altText: "Página do Curso",
+                caption: "Página do Curso",
+                key: 8
+            },
+            {
+                src: "https://github.com/user-attachments/assets/ae0de595-eabd-4131-9887-e813ab251cda",
+                altText: "Página do Episódio",
+                caption: "Página do Episódio",
+                key: 9
+            },
+        ]
     },
     {
         id: 2,

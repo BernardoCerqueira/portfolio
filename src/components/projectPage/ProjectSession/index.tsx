@@ -2,6 +2,7 @@ import ReadMe from "../Readme";
 import ReactStrapCarousel from "./Carousel";
 import styles from "./ProjectSession.module.scss";
 import React from 'react';
+import VideoCarousel from "./VideoCarousel";
 
 type props = {
     name: string
@@ -14,9 +15,15 @@ type props = {
         caption: string,
         key: number
     }[]
+    carouselVideos?:{
+        src: string,
+        altText: string,
+        caption: string,
+        key: number
+    }[]
 }
 
-export default function ProjectSession({ name, link, textLink, techList, carouselImages }: props) {
+export default function ProjectSession({ name, link, textLink, techList, carouselImages, carouselVideos }: props) {
     return (
         <div className={styles.projectSession}>
             <h1 className={styles.title}>{name}</h1>
@@ -27,11 +34,19 @@ export default function ProjectSession({ name, link, textLink, techList, carouse
             >
                 {textLink}
             </a>
-            {carouselImages ? 
-                <div className={styles.carousel}>
-                    <ReactStrapCarousel images={carouselImages} name={name}/>
-                </div>
+            {
+                carouselImages ? 
+                    <div className={styles.carousel}>
+                        <ReactStrapCarousel images={carouselImages} name={name}/>
+                    </div>
                 : null        
+            }
+            {
+                carouselVideos ?
+                    <div>
+                        <VideoCarousel videos={carouselVideos} />
+                    </div>
+                : null
             }
             <div className={styles.techList}>
                 <div>

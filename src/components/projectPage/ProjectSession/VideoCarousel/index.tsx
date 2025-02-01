@@ -1,5 +1,4 @@
-import styles from "./Carousel.module.scss"
-import Image from 'next/image';
+import styles from "./VideoCarousel.module.scss"
 import React, { useState } from 'react';
 import {
     Carousel,
@@ -11,18 +10,17 @@ import {
 
 
 type props = {
-    images: {
+    videos: {
         src: string,
         altText: string,
         caption: string,
         key: number
     }[],
-    name: string
 }
 
-function ReactStrapCarousel({images, name}: props) {
+function VideoCarousel({videos}: props) {
 
-    const items = images
+    const items = videos
 
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
@@ -51,20 +49,19 @@ function ReactStrapCarousel({images, name}: props) {
           onExited={() => setAnimating(false)}
           key={item.src}
         >
-          <Image
-            src={item.src}
-            alt={item.altText}
-            width={1000}
-            height={200}
-            style={{
-                height: "auto",
-                objectFit: "contain",
-                objectPosition: "center",
-            }}
-          />
-          <CarouselCaption
-            captionText={item.caption}
-          />
+            <video
+                src={item.src}
+                style={{
+                    height: "auto",
+                    objectFit: "contain",
+                    objectPosition: "center",
+                }}
+            >
+                {item.altText}
+            </video>
+            <CarouselCaption
+                captionText={item.caption}
+            />
         </CarouselItem>
       );
     });
@@ -74,7 +71,6 @@ function ReactStrapCarousel({images, name}: props) {
         activeIndex={activeIndex}
         next={next}
         previous={previous}
-        dark={name === "BLACK: e-commerce"}
       >
         <CarouselIndicators
           items={items}
@@ -99,4 +95,4 @@ function ReactStrapCarousel({images, name}: props) {
     );
   }
   
-  export default ReactStrapCarousel;
+  export default VideoCarousel;
