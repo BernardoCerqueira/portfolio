@@ -36,8 +36,6 @@ TELAS:
 Responsividade para telas muito grandes
 Mudar a foto de capa
 
-Botões para navegação entre projetos
-
 --------
 
 PROJETOS:
