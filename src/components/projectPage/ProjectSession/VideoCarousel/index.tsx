@@ -1,5 +1,5 @@
 import styles from "./VideoCarousel.module.scss"
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import {
     Carousel,
     CarouselItem,
