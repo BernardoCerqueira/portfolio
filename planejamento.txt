@@ -33,7 +33,7 @@ TELAS:
 
 --------
 
-Carrossel de vídeos do OneBitFlix
+Spinner para carregamento do carrossel
 
 Responsividade para telas muito grandes
 Mudar a foto de capa
