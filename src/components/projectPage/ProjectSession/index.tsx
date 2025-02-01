@@ -49,7 +49,7 @@ export default function ProjectSession({ name, link, textLink, techList, carouse
                 : null
             }
             <div className={styles.techList}>
-                <div>
+                <div className={styles.techText}>
                     <span className={styles.techListTitle}>Tecnologias utilizadas: </span>
                     {techList.general
                         ? techList.general

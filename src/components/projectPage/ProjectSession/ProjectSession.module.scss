@@ -43,7 +43,7 @@
     p{
         margin: 0;
     }
-
+    
     .techListTitle{
         color: colors.$blue;
         font-weight: 500;
@@ -61,6 +61,32 @@
     width: 100%;
     padding: 0 12vw;
     text-align: justify;
+}
+
+@media screen and (min-width: 2560px) {
+    .title{
+        font-size: 68px;
+    }
+    .description{
+        font-size: 22px;
+    }
+    .techList{
+        p{
+            font-size: 22px;
+        }
+        .techListTitle{
+            font-size: 22px;
+        }
+        .techListItem{
+            font-size: 22px;
+        }
+        .techText{
+           font-size: 20px;
+        }
+    }
+    .link{
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 1001px){

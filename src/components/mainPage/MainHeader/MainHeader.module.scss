@@ -139,13 +139,16 @@
     }
 }
 
-@media screen and (min-width: 2800px) {
+@media screen and (min-width: 2560px) {
     .logo {
         width: 150px;
     }
 
-    .offcanvasButton {
-        font-size: 48px;
+    .buttons {
+        button{
+            font-size: 26px;
+        }
+
     }
 }
 

@@ -21,6 +21,12 @@
     }
 }
 
+@media screen and (min-width: 2560px) {
+    .button{
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 491px){
     .div{
         justify-content: center;

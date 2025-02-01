@@ -28,6 +28,15 @@
     gap: 100px;
 }
 
+@media screen and (min-width: 2560px) {
+    .projectsTitle{
+        font-size: 58px;
+    }
+    .projectsCardsSection{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
 @media screen and (max-width: 1760px) {
     .projectsCardsSection{
         width: 1200px;

@@ -69,6 +69,34 @@
     }
 }
 
+@media screen and (min-width: 2560px) {
+    .aboutMe{
+        .aboutMeTitle{
+            font-size: 46px;
+        }
+        .aboutMeText{
+            font-size: 20px;
+        }
+        .aboutMeImage{
+            margin-top: 10px;
+            width: 340px;
+        }
+    }
+    .techStack{
+        .techStackTitle{
+            margin-bottom: 25px;
+            font-size: 46px;
+        }
+        .techStackText{
+            font-size: 20px;
+        }
+        .techStackImage{
+            margin-top: 0px;
+            height: 400px;
+        }
+    }
+}
+
 @media screen and (max-width: 1399px) {
     .presentationSection{
         padding-top: 10vw;
