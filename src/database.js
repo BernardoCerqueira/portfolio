@@ -43,14 +43,14 @@ export const database = [
             },
             {
                 src: "https://github.com/user-attachments/assets/53c78e01-1a2b-46f9-a6eb-83ce49bd9b53",
-                altText: "Perfil do usuário",
-                caption: "Perfil do usuário",
+                altText: "Dados do usuário",
+                caption: "Dados do usuário",
                 key: 6
             },
             {
                 src: "https://github.com/user-attachments/assets/39f02d12-a4ac-423f-badf-47dc09f77993",
-                altText: "Perfil do usuário",
-                caption: "Perfil do usuário",
+                altText: "Senha do usuário",
+                caption: "Senha do usuário",
                 key: 7
             },
             {

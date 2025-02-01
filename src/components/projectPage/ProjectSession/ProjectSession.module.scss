@@ -29,6 +29,8 @@
     margin: 4rem auto 2rem auto;
     width: 1000px;
     border-radius: 0%;
+    display: flex;
+    place-content: center;
 }
 
 .techList{
@@ -65,7 +67,7 @@
     .carousel{
         width: 100%;
 
-        img{
+        img, video{
             width: 100%;
         }
     }
@@ -88,10 +90,11 @@
         margin-bottom: -46vw;
         border-color: transparent;
 
-        img{
+        img, video{
             width: 300%;
             transform: scale(.4);
-            margin: 0 0 0 -100vw;
+            margin: 0 0 0 -91vw;
         }
+
     }
 }

@@ -43,7 +43,7 @@ export default function ProjectSession({ name, link, textLink, techList, carouse
             }
             {
                 carouselVideos ?
-                    <div>
+                    <div className={styles.carousel}>
                         <VideoCarousel videos={carouselVideos} />
                     </div>
                 : null

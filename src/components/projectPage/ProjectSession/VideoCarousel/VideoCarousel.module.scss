@@ -1,10 +1,19 @@
+.control{
+    height: 80%;
+    padding-top: 5rem;
+}
+
+.caption{
+    width: calc(70% - 200px);
+    padding-left: 200px;
+}
+
 @media screen and (max-width: 491px) {
     .indicators{
         display: none;
     }
 
     .control{
-        height: 128px;
-        margin-top: 58vw;
+        padding-top: 8rem;
     }
 }

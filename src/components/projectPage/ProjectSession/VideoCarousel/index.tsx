@@ -1,5 +1,5 @@
 import styles from "./VideoCarousel.module.scss"
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
     Carousel,
     CarouselItem,
@@ -22,9 +22,9 @@ function VideoCarousel({videos}: props) {
 
     const items = videos
 
-    const [activeIndex, setActiveIndex] = useState(0);
-    const [animating, setAnimating] = useState(false);
-  
+    const [activeIndex, setActiveIndex] = useState(0)
+    const [animating, setAnimating] = useState(false)
+
     const next = () => {
       if (animating) return;
       const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
@@ -51,6 +51,8 @@ function VideoCarousel({videos}: props) {
         >
             <video
                 src={item.src}
+                controls
+                muted
                 style={{
                     height: "auto",
                     objectFit: "contain",
@@ -61,6 +63,7 @@ function VideoCarousel({videos}: props) {
             </video>
             <CarouselCaption
                 captionText={item.caption}
+                className={styles.caption}
             />
         </CarouselItem>
       );
@@ -71,6 +74,7 @@ function VideoCarousel({videos}: props) {
         activeIndex={activeIndex}
         next={next}
         previous={previous}
+        interval={false}
       >
         <CarouselIndicators
           items={items}
