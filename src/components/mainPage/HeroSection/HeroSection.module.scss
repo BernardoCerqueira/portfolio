@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 100%;
+    min-height: fit-content;
     height: 80vh;
     max-height: 1200px;
     
@@ -118,11 +119,11 @@
         height: 100vh;
         grid-template-rows: 3fr 2fr;
         grid-template-columns: auto;
+        margin-bottom: 1rem;
 
         .blueDiv{
             place-items: center;
             padding-left: 0;
-            padding: 5.5rem 0 1rem 0;
             width: 100%;
     
             h1{
@@ -150,6 +151,30 @@
             border: 2px solid colors.$blue;
             border-radius: 0px;
             box-shadow: 8px 8px 1px colors.$blue;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .background{
+        .blueDiv{
+            padding: 6.5rem 0 1rem 0;
+
+            p{
+                margin-top: 20px;
+            }
+
+            button{
+                margin-bottom: 1rem;
+            }
+        }
+
+        .greenDiv{
+            padding-bottom: 1rem;
+            
+            .heroImg{
+                margin-bottom: .6rem;
+            }
         }
     }
 }
