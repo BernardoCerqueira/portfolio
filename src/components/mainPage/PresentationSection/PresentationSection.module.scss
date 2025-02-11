@@ -18,7 +18,7 @@
     .highlight{
         transition: .5s;
         &:hover{
-            filter: saturate(.5);
+            filter: brightness(1.2);
         }
     }
 }

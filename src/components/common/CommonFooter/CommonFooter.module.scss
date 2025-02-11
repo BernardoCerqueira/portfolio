@@ -2,7 +2,7 @@
 
 .footer{
     background-color: colors.$blue;
-    color: colors.$green;
+    color: colors.$terciary;
     padding: 20px 40px;
 
     display: flex;
@@ -10,7 +10,7 @@
     align-items: center;
     
     a{
-        color: colors.$green;
+        color: colors.$terciary;
     }
 }
 

@@ -26,14 +26,14 @@
 .button{
     width: 300px;
     height: 80px;
-    background-color: rgba(155, 252, 0, 0.1);
+    background-color: white;
     color: black;
     font-size: 24px;
     border: 3px solid colors.$green;
 
     &:hover{
         background-color: colors.$green;
-        color: black;
+        color: white;
         border: 3px solid transparent;
     }
 }
