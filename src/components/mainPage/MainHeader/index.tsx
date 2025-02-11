@@ -49,10 +49,9 @@ export default function MainHeader() {
                     <OffcanvasHeader
                         toggle={toggle}
                         className={styles.offcanvasHeader}
-                        close
+                        close={<Button className={styles.closeButton} onClick={toggle}>x</Button>}
                     >
                         <p>Menu Principal</p>
-                        <Button className={styles.closeButton} onClick={toggle}>x</Button>
                     </OffcanvasHeader>
                     <OffcanvasBody className={styles.offcanvasBody}>
                         <ul className={styles.list}>
