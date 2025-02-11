@@ -31,7 +31,7 @@
     font-size: 24px;
     border: 3px solid colors.$green;
 
-    &:hover{
+    &:hover, &:focus{
         background-color: colors.$green;
         color: white;
         border: 3px solid transparent;
