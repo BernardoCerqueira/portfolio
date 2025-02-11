@@ -18,7 +18,7 @@
     .highlight{
         transition: .5s;
         &:hover{
-            color: colors.$purple;
+            filter: saturate(.5);
         }
     }
 }
