@@ -125,6 +125,7 @@
             place-items: center;
             padding-left: 0;
             width: 100%;
+            padding: 6.5rem 0 1rem 0;
     
             h1{
                 text-align: center;
@@ -133,6 +134,10 @@
             p{
                 margin: 40px 50px;
                 text-align: center;
+            }
+
+            button{
+                margin-bottom: 1rem;
             }
         }
     }
@@ -146,7 +151,7 @@
         .heroImg{
             width: 240px;
             position: relative;
-            top: 0;
+            top: -10px;
             left: 0;
             border: 2px solid colors.$blue;
             border-radius: 0px;
@@ -158,14 +163,8 @@
 @media screen and (max-width: 425px) {
     .background{
         .blueDiv{
-            padding: 6.5rem 0 1rem 0;
-
             p{
                 margin-top: 20px;
-            }
-
-            button{
-                margin-bottom: 1rem;
             }
         }
 
