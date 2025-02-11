@@ -8,12 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 10px 20px 10px 40px;
+    padding: 0px 20px 10px 40px;
 }
 
 .logo {
     width: 100px;
-    margin-top: 13px;
+    margin-top: 30px;
 }
 
 .buttons {
@@ -168,12 +168,15 @@
     .buttons{
         display: none;
     }
+    .logo {
+        margin-top: 13px;
+    }
     .offcanvasButton {
         display: block;
         margin-bottom: 10px;
     }
     .header{
-        padding: 10px 40px;
+        padding: 10px;
     }
 }
 
