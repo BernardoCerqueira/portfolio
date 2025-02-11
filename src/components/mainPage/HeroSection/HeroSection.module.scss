@@ -151,7 +151,7 @@
         .heroImg{
             width: 240px;
             position: relative;
-            top: -10px;
+            top: 0px;
             left: 0;
             border: 2px solid colors.$blue;
             border-radius: 0px;
@@ -164,7 +164,8 @@
     .background{
         .blueDiv{
             p{
-                margin-top: 20px;
+                margin: 20px 20px 40px 20px;
+
             }
         }
 

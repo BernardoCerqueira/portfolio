@@ -13,6 +13,7 @@
 
 .logo {
     width: 100px;
+    margin-top: 13px;
 }
 
 .buttons {
@@ -54,7 +55,7 @@
     }
 
     .offcanvasIcon {
-        color: colors.$blue;
+        color: colors.$terciary;
     }
 }
 
@@ -83,7 +84,7 @@
     padding: 0;
 
     a {
-        color: colors.$blue;
+        color: colors.$green;
         text-decoration: none;
     }
 }
@@ -111,7 +112,7 @@
     margin: 0px auto;
 
     a {
-        color: colors.$blue;
+        color: colors.$green;
     }
 }
 
@@ -177,13 +178,9 @@
 }
 
 @media screen and (max-width: 700px) {
-    .logo {
-        width: 80px;
-    }
-
     .offcanvasButton {
         .offcanvasIcon {
-            color: colors.$green;
+            color: colors.$terciary
         }
     }
 }

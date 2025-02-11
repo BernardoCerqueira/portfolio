@@ -19,7 +19,7 @@ export default function MainHeader() {
             <nav className={styles.header}>
                 <Link href={"#hero"}>
                     <img
-                        src="/logo.png"
+                        src="/logoWhite.png"
                         alt="Logo"
                         className={styles.logo}
                     />
