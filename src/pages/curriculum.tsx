@@ -2,30 +2,25 @@ import styles from "@/styles/Curriculum.module.scss"
 import CommonFooter from "@/components/common/CommonFooter"
 import CommonHeader from "@/components/common/CommonHeader"
 import CurriculumSection from "@/components/curriculumPage/CurriculumSection";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-    title: "Bernardo Cerqueira | Currículo",
-    description: "Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades.",
-    openGraph: {
-        title: "Bernardo Cerqueira | Currículo",
-        description: "Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades.",
-        url: "https://becerqueira.com/curriculum",
-        images: [
-            {
-                url: "https://becerqueira.com/bernardo.jpg",
-                alt: "Bê Cerqueira"
-            }
-        ]
-    },
-    icons: {
-        icon: "/iconBlack.svg" // Define o favicon diretamente no metadata
-    }
-}
+import Head from "next/head";
 
 export default function Curriculum() {
     return (
         <>
+            <Head>
+                <title>Bernardo Cerqueira | Currículo</title>
+                <meta name="description" content="Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades." />
+
+                <meta property="og:title" content="Bernardo Cerqueira | Currículo" />
+                <meta property="og:description" content="Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades." />
+                <meta property="og:url" content="https://becerqueira.com/curriculum" />
+                <meta property="og:image" content="https://becerqueira.com/bernardo.jpg" />
+                <meta property="og:image:alt" content="Bê Cerqueira" />
+                <meta property="og:type" content="website" />
+
+                <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
+            </Head>
+            
             <div className={styles.page}>
                 <header className={styles.header}>
                     <CommonHeader />

@@ -4,30 +4,25 @@ import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 import ProjectsSection from "@/components/mainPage/ProjectsSection";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Bernardo Cerqueira | Portfólio",
-  description: "Confira o portfólio do Bernardo Cerqueira Marques e saiba mais sobre seus principais projetos e sobre suas principais habilidades.",
-  openGraph: {
-    title: "Bernardo Cerqueira | Portfólio",
-    description: "Confira o portfólio do Bernardo Cerqueira Marques e saiba mais sobre seus principais projetos e sobre suas principais habilidades.",
-    url: "https://becerqueira.com",
-    images: [
-      {
-        url: "https://becerqueira.com/bernardo.jpg",
-        alt: "Bê Cerqueira"
-      }
-    ]
-  },
-  icons: {
-    icon: "/iconBlack.svg"
-  }
-}
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Bernardo Cerqueira | Currículo</title>
+        <meta name="description" content="Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades." />
+
+        <meta property="og:title" content="Bernardo Cerqueira | Currículo" />
+        <meta property="og:description" content="Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades." />
+        <meta property="og:url" content="https://becerqueira.com/curriculum" />
+        <meta property="og:image" content="https://becerqueira.com/bernardo.jpg" />
+        <meta property="og:image:alt" content="Bê Cerqueira" />
+        <meta property="og:type" content="website" />
+
+        <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
+      </Head>
+      
       <MainHeader />
       <main>
         <div id="hero">
