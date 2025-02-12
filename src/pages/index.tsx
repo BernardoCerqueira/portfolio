@@ -5,6 +5,23 @@ import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
 import ExtendedFooter from "@/components/mainPage/ExtendedFooter";
 import ProjectsSection from "@/components/mainPage/ProjectsSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bernardo Cerqueira | Portfólio",
+  description: "Confira o portfólio do Bernardo Cerqueira Marques e saiba mais sobre seus principais projetos e sobre suas principais habilidades.",
+  openGraph: {
+    title: "Bernardo Cerqueira | Portfólio",
+    description: "Confira o portfólio do Bernardo Cerqueira Marques e saiba mais sobre seus principais projetos e sobre suas principais habilidades.",
+    url: "https://becerqueira.com",
+    images: [
+      {
+        url: "/bernardo.jpg",
+        alt: "Bê Cerqueira"
+      }
+    ]
+  }
+}
 
 export default function Home() {
   return (
