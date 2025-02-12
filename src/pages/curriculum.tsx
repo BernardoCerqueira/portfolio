@@ -14,20 +14,19 @@ export const metadata: Metadata = {
         url: "https://becerqueira.com/curriculum",
         images: [
             {
-                url: "/bernardo.jpg",
+                url: "https://becerqueira.com/bernardo.jpg",
                 alt: "Bê Cerqueira"
             }
         ]
+    },
+    icons: {
+        icon: "/iconBlack.svg" // Define o favicon diretamente no metadata
     }
 }
 
 export default function Curriculum() {
     return (
         <>
-            <Head>
-                <title>Bernardo Cerqueira | Currículo</title>
-                <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
-            </Head>
             <div className={styles.page}>
                 <header className={styles.header}>
                     <CommonHeader />

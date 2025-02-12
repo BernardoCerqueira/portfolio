@@ -16,20 +16,19 @@ export const metadata: Metadata = {
     url: "https://becerqueira.com",
     images: [
       {
-        url: "/bernardo.jpg",
+        url: "https://becerqueira.com/bernardo.jpg",
         alt: "Bê Cerqueira"
       }
     ]
+  },
+  icons: {
+    icon: "/iconBlack.svg"
   }
 }
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Bernardo Cerqueira | Portfólio</title>
-        <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
-      </Head>
       <MainHeader />
       <main>
         <div id="hero">
