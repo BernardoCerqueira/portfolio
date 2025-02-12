@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import MainHeader from "@/components/mainPage/MainHeader";
 import HeroSection from "@/components/mainPage/HeroSection";
 import PresentationSection from "@/components/mainPage/PresentationSection";
