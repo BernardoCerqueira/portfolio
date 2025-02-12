@@ -9,14 +9,14 @@
 
 .button {
     background-color: transparent;
-    color: colors.$blue;
+    color: colors.$secondary;
     font-weight: bold;
     font-size: 16px;
     transition: all .5s;
 
     &:hover,
     &:active {
-        background-color: colors.$blue;
+        background-color: colors.$secondary;
         color: white;
     }
 }

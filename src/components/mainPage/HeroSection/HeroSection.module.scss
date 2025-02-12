@@ -8,8 +8,8 @@
     height: 80vh;
     max-height: 1200px;
     
-    .blueDiv{
-        background-color: colors.$blue;
+    .secondaryDiv{
+        background-color: colors.$secondary;
         display: flex;
         flex-direction: column;
         padding-left: 20%;
@@ -44,13 +44,13 @@
             
             &:hover{
                 background-color: colors.$terciary;
-                color: colors.$green;
+                color: colors.$primary;
             }
         }
     }
     
-    .greenDiv{
-        background-color: colors.$green;
+    .primaryDiv{
+        background-color: colors.$primary;
     }
     
     .heroImg{
@@ -59,13 +59,13 @@
         position: absolute;
         top: 17%;
         left: 56vw;
-        border: 7px solid colors.$green;
+        border: 7px solid colors.$primary;
         border-radius: 10px;
     }
 }
 
 @media screen and (min-width: 2560px){
-    .greenDiv{
+    .primaryDiv{
         .heroImg{
             width: 550px;
         }
@@ -87,7 +87,7 @@
     .background{
         height: 550px;
         
-        .blueDiv{
+        .secondaryDiv{
             padding-left: 10%;
             padding-top: 10px;
 
@@ -122,7 +122,7 @@
         grid-template-columns: auto;
         margin-bottom: 1rem;
 
-        .blueDiv{
+        .secondaryDiv{
             place-items: center;
             padding-left: 0;
             width: 100%;
@@ -143,7 +143,7 @@
         }
     }
 
-    .greenDiv{
+    .primaryDiv{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -154,23 +154,23 @@
             position: relative;
             top: 0px;
             left: 0;
-            border: 2px solid colors.$blue;
+            border: 2px solid colors.$secondary;
             border-radius: 0px;
-            box-shadow: 8px 8px 1px colors.$blue;
+            box-shadow: 8px 8px 1px colors.$secondary;
         }
     }
 }
 
 @media screen and (max-width: 425px) {
     .background{
-        .blueDiv{
+        .secondaryDiv{
             p{
                 margin: 20px 20px 40px 20px;
 
             }
         }
 
-        .greenDiv{
+        .primaryDiv{
             padding-bottom: 1rem;
             
             .heroImg{

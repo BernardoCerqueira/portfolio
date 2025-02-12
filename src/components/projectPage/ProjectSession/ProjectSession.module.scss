@@ -9,7 +9,7 @@
 .title{
     margin-top: 4rem;
     font-size: 50px;
-    color: colors.$blue;
+    color: colors.$secondary;
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -21,7 +21,7 @@
     z-index: 10;
     
     &:hover{
-        color: colors.$blue;
+        color: colors.$secondary;
     }
 }
 
@@ -45,7 +45,7 @@
     }
     
     .techListTitle{
-        color: colors.$blue;
+        color: colors.$secondary;
         font-weight: 500;
         margin: 0;
     }

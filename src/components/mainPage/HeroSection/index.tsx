@@ -13,7 +13,7 @@ export default function HeroSection(){
     return(
         <>
             <Box className={styles.background}>    
-                <Box className={styles.blueDiv}>
+                <Box className={styles.secondaryDiv}>
                     <h1>
                         Bernardo<br/>
                         Cerqueira
@@ -24,7 +24,7 @@ export default function HeroSection(){
                     </p>
                     <Button onClick={handleClick}>Conhecer Mais</Button>
                 </Box>
-                <Box className={styles.greenDiv}> 
+                <Box className={styles.primaryDiv}> 
                         <img 
                             className={styles.heroImg}
                             src="/bernardo.jpg"
