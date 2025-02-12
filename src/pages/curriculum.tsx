@@ -14,7 +14,7 @@ export default function Curriculum() {
                 <meta property="og:title" content="Bernardo Cerqueira | Currículo" />
                 <meta property="og:description" content="Confira o currículo do Bernardo Cerqueira Marques e saiba mais sobre a sua carreira e suas habilidades." />
                 <meta property="og:url" content="https://becerqueira.com/curriculum" />
-                <meta property="og:image" content="https://becerqueira.com/bernardo.jpg" />
+                <meta property="og:image" content="https://becerqueira.com/programmer-art.svg" />
                 <meta property="og:image:alt" content="Bê Cerqueira" />
                 <meta property="og:type" content="website" />
 
