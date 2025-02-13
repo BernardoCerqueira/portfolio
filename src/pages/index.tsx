@@ -20,6 +20,8 @@ export default function Home() {
         <meta property="og:image:alt" content="Bê Cerqueira" />
         <meta property="og:type" content="website" />
 
+        <meta name="google-site-verification" content="lS2OeaZM45pA23oBc541VTRXEpLoATd7FChsVTgrSPU" />
+        
         <link rel="shortcut icon" href="/iconBlack.svg" type="image/x-icon" />
       </Head>
 
