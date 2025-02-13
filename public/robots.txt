@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.becerqueira.com
+
+# Sitemaps
+Sitemap: https://www.becerqueira.com/sitemap.xml
