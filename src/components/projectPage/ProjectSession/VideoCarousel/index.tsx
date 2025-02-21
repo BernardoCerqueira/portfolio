@@ -16,9 +16,10 @@ type props = {
         caption: string,
         key: number
     }[],
+    name: string
 }
 
-function VideoCarousel({videos}: props) {
+function VideoCarousel({videos, name}: props) {
     const items = videos
 
     const [activeIndex, setActiveIndex] = useState(0)
@@ -74,6 +75,7 @@ function VideoCarousel({videos}: props) {
         next={next}
         previous={previous}
         interval={false}
+        dark={name === "Lofrano Arquitetura"}
         className={styles.carousel}
       >
         <CarouselIndicators

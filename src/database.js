@@ -69,6 +69,37 @@ export const database = [
     },
     {
         id: 2,
+        name: "Lofrano Arquitetura",
+        description: "Website dedicado à apresentação de serviços e projetos de uma empresa de arquitetura. Possui uma página principal e um dashboard administrativo.",
+        link: "https://www.lofranoarquitetura.com.br/",
+        textLink: "lofranoarquitetura.com.br",
+        imgUrl: "/projects/lofranoArq.png",
+        techList: {
+            general: "Next.js, React, Typescript, SASS, Reactstrap, Jsonwebtoken (autenticação) e Supabase (armazenamento)."
+        },
+        carouselVideos: [
+            {
+                src: "https://github.com/user-attachments/assets/456e99dc-112a-4510-a43d-1d05068edb48",
+                altText: "Página Principal",
+                caption: "Página Principal",
+                key: 1
+            },
+            {
+                src: "https://github.com/user-attachments/assets/7a00afc1-3d02-402b-841c-b39af0735097",
+                altText: "Login",
+                caption: "Login",
+                key: 2
+            },
+            {
+                src: " https://github.com/user-attachments/assets/9bd5f007-2ad4-4059-821f-6cd91da8dd0e",
+                altText: "Dashboard Administrativo",
+                caption: "Dashboard Administrativo",
+                key: 3
+            }
+        ]
+    },
+    {
+        id: 3,
         name: "RocketX",
         description: "Aplicação front-end com um design totalmente responsivo, elementos interativos e uma navegação fluida, simulando o site da SpaceX.",
         link: "https://bernardocerqueira.github.io/rocketX/",
@@ -117,7 +148,7 @@ export const database = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Draw Simulator",
         description: "Aplicativo web para sorteios de times - com ou sem potes - e separação em grupos. Ideal para campeonatos e eventos.",
         link: "https://draw-simulator-psi.vercel.app/",
@@ -166,7 +197,7 @@ export const database = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "BLACK: e-commerce",
         description: "E-commerce com um carrinho de compras administrável pelo usuário. Os dados da aplicação persistem no Local Storage.",
         link: "https://black-nextjs-xi-six.vercel.app/",
@@ -198,18 +229,18 @@ export const database = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Leads API",
         description: "Gerenciamento completo de Leads, Grupos e Campanhas. O usuário pode criar, ver, atualizar e excluir registros. Conta com paginação e filtros.",
         link: "https://github.com/BernardoCerqueira/leads_api",
         textLink: "Confira o README do projeto",
         imgUrl: "/projects/leads-api.jpg",
         techList: {
-            general: "TypeScript, Node.js, PostgreSQL, Prisma ORM and Insomnia (para teste de rotas)."        
+            general: "TypeScript, Node.js, PostgreSQL, Prisma ORM and Insomnia (para teste de rotas)."
         }
     },
     {
-        id: 6,
+        id: 7,
         name: "Stock Manager",
         description: "Aplicação responsiva que permite que usuários gerenciem os estoques de suas lojas. Conta com funcionalidades de adicionar, remover, atualizar e ver itens.",
         link: "",
