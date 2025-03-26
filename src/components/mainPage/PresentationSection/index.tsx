@@ -24,7 +24,7 @@ export default function PresentationSection() {
                     <h1 className={styles.techStackTitle}>Habilidades e Objetivos
                     </h1>
                     <p className={styles.techStackText}>
-                        Tenho experiência com <span className={styles.highlight}>HTML5, CSS3, JavaScript, TypeScript, Sass, Bootstrap e Tailwind CSS</span>, além de ferramentas como <span className={styles.highlight}>Git e GitHub</span> para versionamento de código.
+                        Tenho experiência com <span className={styles.highlight}>HTML5, CSS3, JavaScript, TypeScript, Sass, Bootstrap e Tailwind CSS</span>, além de ferramentas como <span className={styles.highlight}>Git e GitHub</span> para versionamento de código e <span className={styles.highlight}>JEST</span> para testes.
                     </p>
                     <p className={styles.techStackText}>
                         No front-end, domino frameworks como <span className={styles.highlight}>React e Next.js</span>, construindo interfaces modernas e responsivas. No back-end, meu foco é em <span className={styles.highlight}>Node.js e Express.js</span>, com integração a bancos de dados <span className={styles.highlight}>PostgreSQL via Prisma</span>.
